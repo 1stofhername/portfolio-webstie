@@ -402,11 +402,14 @@ li.skill-item {
   position:relative;
 }
 
-.project-card[selected] {
+.project-card[expanded] {
   height:40rem;
-  backdrop-filter: blur(10px);
-  z-index: 9;
   transition-duration: .5s;
+}
+
+.project-card[expanded] .arrow-container {
+  transform:rotate(180deg);
+  transition-duration: .2s;
 }
 
 .project-title {

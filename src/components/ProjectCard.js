@@ -7,37 +7,42 @@ import youtube from '../assets/icons/youtube.svg';
 export default function ProjectCard ({ project }) {
 
     const [selectedProject, setSelectedProject]=useState();
-    const [isProjectSelected, setIsProjectSelected]=useState(false);
-    console.log(isProjectSelected)
 
     function handleProjectClick (e) {
-        let name = e.target.getAttribute("name");
-        document.getElementById(name).setAttribute('selected', true);
-        if (name !== selectedProject) {
-            setSelectedProject(name);
+        let id = e.target.getAttribute("name");
+        let expanded = document.getElementById(id).getAttribute('expanded');
+
+        if (!expanded) {
+            document.getElementById(id).setAttribute('expanded', true);
+        // if (id !== selectedProject) {
+        //     setSelectedProject(name);
+        // }
+        } else if (expanded) {
+            document.getElementById(id).removeAttribute('expanded');
+            // setSelectedProject("");
         }
+        
     }
 
     function handleCloseClick (e) {
         let name = e.target.getAttribute("name");
         document.getElementById(name).removeAttribute('selected');
         setSelectedProject("");
-        setIsProjectSelected(false);
     }
 
     const { title, links, img, tools } = project;
 
     return (
         
-        <div name={title} id={title} className='project-card'>
+        <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} className='project-card'>
 
             <span name={title} className="project-title">
-            {selectedProject===title?<img src={cancel} name={title} className="back-icon" id="close" onClick={(e)=>handleCloseClick(e)} />:null}
+            {/* {selectedProject===title?<img src={cancel} name={title} className="back-icon" id="close" onClick={(e)=>handleCloseClick(e)} />:null} */}
             <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
             </span>
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="image-container">
-            <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img}/>
+            <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img} width="80%" height="185px" />
             </span>
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="arrow-container"><span onClick={(e)=>{handleProjectClick(e)}} name={title} className="expand-arrow"></span>
