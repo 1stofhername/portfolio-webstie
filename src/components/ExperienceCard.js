@@ -1,8 +1,8 @@
-import graduationCap from "../assets/icons/graduation-cap.svg";
 import { v4 as uuid } from 'uuid';
+import graduationCap from "../assets/icons/graduation-cap.svg";
 
 export default function JobListing ({ title, org, ed, date, handleJobClick }) {
-    
+
     return (
 
         <div key={uuid()} className="experience-card" id={org} onClick={(e)=>{handleJobClick(e.target.id)}}>

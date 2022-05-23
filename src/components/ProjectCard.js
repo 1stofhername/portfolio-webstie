@@ -1,21 +1,49 @@
-import youtube from '../assets/icons/youtube.svg';
+import { useState } from 'react';
 import { v4 as uuid } from 'uuid';
+import cancel from '../assets/icons/cancel.svg';
+import youtube from '../assets/icons/youtube.svg';
+
 
 export default function ProjectCard ({ project }) {
 
+    const [selectedProject, setSelectedProject]=useState();
+    const [isProjectSelected, setIsProjectSelected]=useState(false);
+    console.log(isProjectSelected)
+
+    function handleProjectClick (e) {
+        let name = e.target.getAttribute("name");
+        document.getElementById(name).setAttribute('selected', true);
+        if (name !== selectedProject) {
+            setSelectedProject(name);
+        }
+    }
+
+    function handleCloseClick (e) {
+        let name = e.target.getAttribute("name");
+        document.getElementById(name).removeAttribute('selected');
+        setSelectedProject("");
+        setIsProjectSelected(false);
+    }
 
     const { title, links, img, tools } = project;
-    console.log(title, links, img)
 
     return (
         
-        <div id={title} className='project-card'>
-            <h2 className='sub-title-black'>{title}</h2>
-            <span className="image-container">
-            <img className="project-image" src={img}/>
+        <div name={title} id={title} className='project-card'>
+
+            <span name={title} className="project-title">
+            {selectedProject===title?<img src={cancel} name={title} className="nav-icon" id="close" onClick={(e)=>handleCloseClick(e)} />:null}
+            <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
             </span>
-            <span className="arrow-container"><span className="expand-arrow"></span></span>
-            <div className ="button-container">
+
+            <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="image-container">
+            <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img}/>
+            </span>
+
+            <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="arrow-container"><span onClick={(e)=>{handleProjectClick(e)}} name={title} className="expand-arrow"></span>
+            </span>
+
+            <div name={title} className ="button-container">
                 {links.map(link=>{
                     let linkType;
                     let url;
@@ -30,10 +58,23 @@ export default function ProjectCard ({ project }) {
                         linkType="Read more"
                     }
                     return (
-                        <button key={uuid()} className="project-button" onClick={()=> window.open(url, "_blank")}>{linkType==="Walkthrough"?<img id="video-icon" src={youtube}/>:null}{linkType}</button>
+                        <button key={uuid()} name={title} className="project-button" onClick={()=> window.open(url, "_blank")}>
+                            {linkType==="Walkthrough"?
+                            <img id="video-icon" src={youtube}/>:
+                            null}
+                            {linkType}
+                            </button>
                     )
                 })
                 }
+            </div>
+            <div className="tools-container">
+                <p className='tool-icon'>Tools:</p>
+                {tools.map((tool)=>{
+                    return (
+                        <p className="tool-icon">{tool}</p>
+                    )
+                })}
             </div>
         </div>
     )

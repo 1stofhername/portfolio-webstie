@@ -24,7 +24,10 @@ p {
 }
 
 p.connect {
-  text-align: center;
+  text-align: left;
+  position:absolute;
+  transform: translateX(40px);
+  margin-right:1rem;
 }
 
 .App {
@@ -129,7 +132,8 @@ p.connect {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  width:300px;
+  justify-content: flex-end;
+  width:400px;
   border-radius: 10px;
   margin:0.75rem 0.5rem 0.5rem 0.5rem;
   padding:0.25rem;
@@ -157,8 +161,25 @@ p.connect {
   animation: pulse-pink none;
 }
 
+a.contact-link {
+  width:fit-content;
+  /* margin-left: 2rem; */
+}
+
+.contact-icons {
+  position:absolute;
+  display:flex;
+  justify-content:flex-end;
+  width:300px;
+  align-items: center;
+  margin-right:1.5rem;
+}
+
 .contact-icon {
+  position:relative;
   width: 1.75rem;
+  margin-left: 2rem;
+  
 }
 
 code {
@@ -343,7 +364,7 @@ li.skill-item {
 }
 
 .project-card {
-  background-color: rgba(255,255,255, 1.0);
+  background-color: rgba(255,255,255, .50);
   height:20rem;
   width:30rem;
   margin:1rem;
@@ -354,13 +375,25 @@ li.skill-item {
   position:relative;
 }
 
-#Idealist {
+.project-card[selected] {
   height:40rem;
+  width:40rem;
   position:absolute;
-  
+  backdrop-filter: blur(10px);
   z-index: 9;
+  /* transition-duration: 1s; */
 }
 
+.project-title {
+display:flex;
+align-items: center;
+}
+
+.close-icon {
+  width:2rem;
+  margin:0rem;
+  
+}
 /* .project-card:hover {
   height:25rem;
   transition-duration: .5s;
@@ -422,4 +455,23 @@ button:hover {
 #video-icon {
   height:1.5rem;
   margin: 0rem .25rem 0rem .25rem;
+}
+
+.tools-container {
+  display:flex;
+  justify-content: space-around;
+}
+
+.tool-icon {
+  width:fit-content;
+  background:#84A59D;
+  color:white;
+  display:flex;
+  align-items: center;
+  border-style: none;
+  border-radius: 10px;
+  padding:0.5rem;
+  font-size: 1.0rem;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
