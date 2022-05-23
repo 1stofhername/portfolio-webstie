@@ -28,7 +28,7 @@ export const projectData = [
     },
 
     {
-        title: "Portfolio Site",
+        title: "Portfolio",
         img:"https://i.ibb.co/wBHJVmc/Screen-Shot-2022-05-20-at-4-53-18-PM.png",
         links:[
             {

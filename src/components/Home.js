@@ -14,7 +14,7 @@ export default function Home () {
             <div id="home">
 
                 <div className="title">
-                    <h2 id="fullstack-dev" className="sub-title">
+                    <h2 id="greeting" className="sub-title">
                         Hello, my name is
                     </h2>
                     

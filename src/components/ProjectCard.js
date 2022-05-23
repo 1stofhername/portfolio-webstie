@@ -32,7 +32,7 @@ export default function ProjectCard ({ project }) {
         <div name={title} id={title} className='project-card'>
 
             <span name={title} className="project-title">
-            {selectedProject===title?<img src={cancel} name={title} className="nav-icon" id="close" onClick={(e)=>handleCloseClick(e)} />:null}
+            {selectedProject===title?<img src={cancel} name={title} className="back-icon" id="close" onClick={(e)=>handleCloseClick(e)} />:null}
             <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
             </span>
 
@@ -62,7 +62,7 @@ export default function ProjectCard ({ project }) {
                             {linkType==="Walkthrough"?
                             <img id="video-icon" src={youtube}/>:
                             null}
-                            {linkType}
+                            <p>{linkType}</p>
                             </button>
                     )
                 })

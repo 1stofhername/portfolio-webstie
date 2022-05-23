@@ -25,9 +25,9 @@ p {
 
 p.connect {
   text-align: left;
-  position:absolute;
-  transform: translateX(40px);
-  margin-right:1rem;
+  /* position:absolute; */
+  transform: translateX(25px);
+  /* margin-right:1rem; */
 }
 
 .App {
@@ -120,19 +120,22 @@ p.connect {
   margin:0.5rem;
 }
 
+#fullstack-dev {
+  margin-bottom: 1rem;
+}
+
 .contact-menu {
   background: rgba(242, 132, 130, 1);
   box-shadow: 0 0 0 0 rgba(242, 132, 130, 1);
+  animation: pulse-pink 3s infinite;
   color:white;
   font-family: 'Raleway', sans-serif;
   font-size: 1.15rem;
-  height:5%;
-  animation: pulse-pink 3s infinite;
+  height:40px;
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: flex-end;
   width:400px;
   border-radius: 10px;
   margin:0.75rem 0.5rem 0.5rem 0.5rem;
@@ -161,25 +164,28 @@ p.connect {
   animation: pulse-pink none;
 }
 
-a.contact-link {
-  width:fit-content;
-  /* margin-left: 2rem; */
-}
-
 .contact-icons {
-  position:absolute;
   display:flex;
-  justify-content:flex-end;
-  width:300px;
-  align-items: center;
-  margin-right:1.5rem;
+  justify-content:space-between;
+  width:600px;
+  margin-right:1.0rem;
 }
 
-.contact-icon {
-  position:relative;
-  width: 1.75rem;
-  margin-left: 2rem;
-  
+ .contact-icon {
+  height:1.75rem;
+  width:fit-content;
+}
+
+.contact-icon:hover {
+  transform: translate(2px, 2px);
+}
+
+#email {
+  transform: translateY(1px);
+}
+
+#email:hover {
+  transform: translate(2px, 2px);
 }
 
 code {
@@ -307,10 +313,19 @@ code {
 .back-icon {
   z-index: 9;
   position:absolute;
-  height: 3rem;
+  height: 2.5rem;
   width: fit-content;
-  float:left;
-  transform: translateY(-1rem);
+  margin-left:0rem;
+  transform: translateY(-10px) ;
+}
+
+.back-icon#close {
+  z-index: 9;
+  position:absolute;
+  height: 2.5rem;
+  width: fit-content;
+  margin-left:1rem;
+  transform: translateY(none) ;
 }
 
 .job-detail {
@@ -328,6 +343,7 @@ code {
 #skills-demonstrated-div {
   flex-grow: 2;
   margin-left: 2rem;
+  align-self: stretch;
 }
 
 li.skill-item {
@@ -363,25 +379,34 @@ li.skill-item {
   position: relative;
 }
 
+.project-placeholder {
+  z-index: -1;
+  position:absolute;
+  height:19rem;
+  width:26rem;
+  background-color: white;
+  margin-top:1rem;
+  border-radius: 10px;
+  padding-top:1rem;
+}
+
 .project-card {
   background-color: rgba(255,255,255, .50);
-  height:20rem;
-  width:30rem;
-  margin:1rem;
+  height:19rem;
+  width:26rem;
+  margin-top:1rem;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow-y: clip;
-  padding:1rem;
+  padding-top:1rem;
   position:relative;
 }
 
 .project-card[selected] {
   height:40rem;
-  width:40rem;
-  position:absolute;
   backdrop-filter: blur(10px);
   z-index: 9;
-  /* transition-duration: 1s; */
+  transition-duration: .5s;
 }
 
 .project-title {
@@ -426,9 +451,11 @@ align-items: center;
 
 .button-container {
   display: flex;
-  width:100%;
-  justify-content: space-evenly;
-  padding:2rem 1.25rem 1.25rem 1.25rem;
+  width:85%;
+  justify-content: space-between;
+  padding:2rem 1rem 1.25rem 1rem;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 button {
@@ -444,6 +471,8 @@ button {
   font-size: 1.0rem;
   font-family: 'Raleway', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: 0 0 0 0 rgba(242, 132, 130, 1);
+  animation: pulse-pink 3s infinite;
 }
 
 button:hover {
@@ -454,12 +483,16 @@ button:hover {
 
 #video-icon {
   height:1.5rem;
+  width:fit-content;
   margin: 0rem .25rem 0rem .25rem;
 }
 
 .tools-container {
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:85%;
+  margin:auto;
 }
 
 .tool-icon {
@@ -474,4 +507,7 @@ button:hover {
   font-size: 1.0rem;
   font-family: 'Raleway', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin:1rem 0.5rem 0.5rem 0.5rem;
+  /* margin-left:0.5rem;
+  margin-right:0.5rem; */
 }
