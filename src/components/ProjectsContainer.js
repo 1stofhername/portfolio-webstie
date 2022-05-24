@@ -25,6 +25,7 @@ export default function Projects () {
                     
                     {projectData.map((project)=>{
                         return (
+                            
                         <ProjectCard project={project} />
                         )})}
                         

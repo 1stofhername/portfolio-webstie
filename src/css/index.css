@@ -25,9 +25,7 @@ p {
 
 p.connect {
   text-align: left;
-  /* position:absolute; */
   transform: translateX(25px);
-  /* margin-right:1rem; */
 }
 
 .App {
@@ -39,7 +37,7 @@ p.connect {
 .page-section {
   max-height:100vh;
   min-height:100vh;
-  padding:20px;
+  /* padding:20px; */
 }
 
 .side-bar {
@@ -87,21 +85,25 @@ p.connect {
 }
 
 #home-page {
-  width:50%;
+  width:fit-content;
   margin-right:auto;
   margin-left:auto;
+  /* display:flex;
+  justify-content: center; */
 }
 
 #home {
   height:100%;
-  display:inline;
-  flex-direction: column;
+  /* display:inline; */
+  /* flex-direction: column; */
+  width:fit-content;
 }
 
 .title {
   display:inline-flex;
   flex-direction: column;
   text-align: left;
+  width:fit-content;
 }
 
 .name {
@@ -420,13 +422,7 @@ align-items: center;
 .close-icon {
   width:2rem;
   margin:0rem;
-  
 }
-/* .project-card:hover {
-  height:25rem;
-  transition-duration: .5s;
-
-} */
 
 .project-image {
   width:80%;
@@ -436,7 +432,6 @@ align-items: center;
 }
 
 .arrow-container {
-  /* width:100%; */
   height: 1rem;
   display: flex;
   justify-content: center;  
