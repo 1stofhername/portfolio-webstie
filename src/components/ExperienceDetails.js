@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { roles } from '../data/job-data';
-import cancel from '../assets/icons/cancel.svg';
 import { v4 as uuid } from 'uuid';
 
 export default function ExperienceDetails ({ org, handleCloseButtonClick }) {
@@ -30,7 +29,7 @@ export default function ExperienceDetails ({ org, handleCloseButtonClick }) {
             <div id="job-details-container">
 
             {/* <div className="back-button-container"> */}
-                <img onClick={()=>handleCloseButtonClick()} className="back-icon" src={cancel} />
+                {/* <img onClick={()=>handleCloseButtonClick()} className="back-icon" src={cancel} /> */}
             {/* </div> */}
 
                 <div className='job-detail' id="summary-div">

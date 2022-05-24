@@ -4,6 +4,7 @@ import { roles } from '../data/job-data';
 import { v4 as uuid } from 'uuid';
 import ExperienceCard from './ExperienceCard';
 import ExperienceDetails from './ExperienceDetails';
+import cancel from '../assets/icons/cancel.svg';
 
 export default function Resume () {
 
@@ -12,11 +13,15 @@ export default function Resume () {
     function handleJobClick (org) {
         setSelectedJob(org);
         document.getElementById('resume-title').innerHTML=org
+        document.getElementById('parent-section').setAttribute('detailed',true);
+        document.getElementById('child-section').setAttribute('detailed',true);
     }
 
     function handleCloseButtonClick () {
         setSelectedJob("");
         document.getElementById('resume-title').innerHTML="resume";
+        document.getElementById('parent-section').removeAttribute('detailed');
+        document.getElementById('child-section').removeAttribute('detailed')
     }
 
     return (
@@ -28,15 +33,18 @@ export default function Resume () {
             animate={{ height:"100vh" }}
             exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
-            <h1 id="resume-title" className="sub-title-black">
-                Resume
-            </h1>
+            <div className="resume-header">
+                {selectedJob?<img onClick={()=>handleCloseButtonClick()} className="back-icon" src={cancel} />:null}
+                <h1 id="resume-title" className="sub-title-black">
+                    Resume
+                </h1>
+            </div>
 
-            <div className='resume-container'>
+            <div className='resume-container' id="parent-section">
             
             <motion.div 
             className="resume-container" 
-            id="resume-section"
+            id="child-section"
             initial={{ height:0 }}
             animate={{ height:"90vh" }}
             exit={{ y: window.innerHeight, transition: { duration: 1.5 } }}
