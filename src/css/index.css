@@ -88,14 +88,10 @@ p.connect {
   width:fit-content;
   margin-right:auto;
   margin-left:auto;
-  /* display:flex;
-  justify-content: center; */
 }
 
 #home {
   height:100%;
-  /* display:inline; */
-  /* flex-direction: column; */
   width:fit-content;
 }
 
@@ -123,6 +119,7 @@ p.connect {
 }
 
 #fullstack-dev {
+  margin-top: 0rem;
   margin-bottom: 1rem;
 }
 
@@ -345,6 +342,10 @@ code {
 #skills-demonstrated-div {
   flex-grow: 2;
   margin-left: 2rem;
+  align-self: stretch;
+}
+
+#skills-container {
   align-self: stretch;
 }
 

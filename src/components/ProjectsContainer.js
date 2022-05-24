@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { projectData } from "../data/project-data";
 import ProjectCard from "./ProjectCard";
+import { v4 as uuid } from 'uuid';
 
 
 export default function Projects () {
@@ -26,7 +27,7 @@ export default function Projects () {
                     {projectData.map((project)=>{
                         return (
                             
-                        <ProjectCard project={project} />
+                        <ProjectCard key={uuid()} project={project} />
                         )})}
                         
                 </motion.div>

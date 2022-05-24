@@ -1,0 +1,132 @@
+@media all and (min-width:0px) and (max-width: 320px) {
+
+    * {
+        margin:0px;
+        padding:0px;
+        max-height:fit-content;
+        width:100%;
+        overflow-y: hidden;
+      }
+
+    .App {
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .side-bar {
+        height:fit-content;
+        width:100%;
+        margin-bottom:2rem;
+
+    }
+
+    .nav-icon {
+        width:3rem;
+        margin:0.5rem 1.5rem 0.5rem 1.5rem;
+        
+      }
+
+    #home-page {
+        width:100%;
+        margin-right:auto;
+        margin-left:auto;
+      }
+      
+      #home {
+        height:100%;
+        width:100%;
+      }
+
+      .title {
+        width:70%;
+      }
+
+      .contact-menu {
+          width:97%;
+          margin-left:auto;
+          margin-right: auto;
+      }
+
+      p.connect {
+        transform: translateX(15px);
+      }
+
+      .contact-icons {
+      margin-right:0.5rem;
+      }
+
+      /* RESUME MAIN */
+
+      .resume-container {
+        overflow-y: auto;
+        display: inline-block;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: relative;
+        padding-bottom:2rem;
+      }
+
+      .sub-title-black {
+        margin:0rem;
+        font-size:24px;
+      }
+
+      h2.sub-title-black {
+          font-size: 18px;
+      }
+
+      .experience-card {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding:1rem;
+        height:10rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      }
+
+      .role-details {
+        text-align: center;
+      }
+
+      #top-corner {
+          position:absolute;
+        transform: translate(-1.0rem, -4.5rem);
+      }
+
+      #bottom-corner {
+        position:absolute;
+      transform: translate(1.0rem, 4.5rem);
+      }
+
+      /* PROJECTS */
+
+      .projects-container {
+          overflow: auto;
+      }
+
+      .project-card {
+        height:16rem;
+        width:18rem;
+        margin-top:1rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow-y: clip;
+        padding-top:1rem;
+        padding-bottom:1rem;
+        position:relative;
+      }
+      
+      .project-card[expanded] {
+        height:fit-content;
+        transition-duration: 3s;
+      }
+
+      .button-container {
+        flex-direction: column;
+      }
+      
+}

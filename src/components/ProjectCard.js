@@ -6,29 +6,16 @@ import youtube from '../assets/icons/youtube.svg';
 
 export default function ProjectCard ({ project }) {
 
-    const [selectedProject, setSelectedProject]=useState();
-
     function handleProjectClick (e) {
         let id = e.target.getAttribute("name");
         let expanded = document.getElementById(id).getAttribute('expanded');
 
         if (!expanded) {
-            document.getElementById(id).setAttribute('expanded', true);
-        // if (id !== selectedProject) {
-        //     setSelectedProject(name);
-        // }
+            document.getElementById(id).setAttribute('expanded', true)
         } else if (expanded) {
             document.getElementById(id).removeAttribute('expanded');
-            // setSelectedProject("");
-        }
-        
-    }
-
-    function handleCloseClick (e) {
-        let name = e.target.getAttribute("name");
-        document.getElementById(name).removeAttribute('selected');
-        setSelectedProject("");
-    }
+        };
+    };
 
     const { title, links, img, tools } = project;
 
@@ -37,7 +24,6 @@ export default function ProjectCard ({ project }) {
         <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} className='project-card'>
 
             <span name={title} className="project-title">
-            {/* {selectedProject===title?<img src={cancel} name={title} className="back-icon" id="close" onClick={(e)=>handleCloseClick(e)} />:null} */}
             <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
             </span>
 
@@ -45,7 +31,8 @@ export default function ProjectCard ({ project }) {
             <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img} width="80%" height="185px" />
             </span>
 
-            <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="arrow-container"><span onClick={(e)=>{handleProjectClick(e)}} name={title} className="expand-arrow"></span>
+            <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="arrow-container">
+                <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="expand-arrow"></span>
             </span>
 
             <div name={title} className ="button-container">
@@ -77,7 +64,7 @@ export default function ProjectCard ({ project }) {
                 <p className='tool-icon'>Tools:</p>
                 {tools.map((tool)=>{
                     return (
-                        <p className="tool-icon">{tool}</p>
+                        <p key={uuid()} className="tool-icon">{tool}</p>
                     )
                 })}
             </div>
