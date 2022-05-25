@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { roles } from '../data/job-data';
 import { v4 as uuid } from 'uuid';
 
-export default function ExperienceDetails ({ org, handleCloseButtonClick }) {
+export default function ExperienceDetails ({ org }) {
 
     let role = roles.filter((role)=>{return(role.org===org)});
     const { title, qualities, skills, summary }=role[0];
@@ -27,10 +27,6 @@ export default function ExperienceDetails ({ org, handleCloseButtonClick }) {
             
 
             <div id="job-details-container">
-
-            {/* <div className="back-button-container"> */}
-                {/* <img onClick={()=>handleCloseButtonClick()} className="back-icon" src={cancel} /> */}
-            {/* </div> */}
 
                 <div className='job-detail' id="summary-div">
                     <h3 className='sub-title-job'>

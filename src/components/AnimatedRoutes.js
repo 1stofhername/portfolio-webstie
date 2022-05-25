@@ -6,6 +6,7 @@ import ExperienceContainer from './ExperienceContainer';
 import ProjectsContainer from './ProjectsContainer';
 import ExperienceDetails from './ExperienceDetails';
 import { roles } from '../data/job-data';
+import Sidebar from './Sidebar';
 
 export default function AnimatedRoutes () {
 
@@ -19,6 +20,8 @@ export default function AnimatedRoutes () {
 
     return (
     
+      <>
+      <Sidebar />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
           <Route path="/resume" element={<ExperienceContainer handleJobClick={handleJobClick}/>} />
@@ -27,5 +30,6 @@ export default function AnimatedRoutes () {
           <Route path="/" element={<Home />} />
         </Routes>
       </AnimatePresence>
+      </>
     )
 }

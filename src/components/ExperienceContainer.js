@@ -34,10 +34,13 @@ export default function Resume () {
             exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
             <div className="resume-header">
-                {selectedJob?<img onClick={()=>handleCloseButtonClick()} className="back-icon" src={cancel} />:null}
+                <div className='back-icon-container'>
+                    {selectedJob?<img onClick={()=>handleCloseButtonClick()} className="back-icon" src={cancel} />:null}
+                </div>
                 <h1 id="resume-title" className="sub-title-black">
                     Resume
                 </h1>
+                
             </div>
 
             <div className='resume-container' id="parent-section">

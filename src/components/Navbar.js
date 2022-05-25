@@ -17,15 +17,15 @@ export default function Navbar () {
         
         <div id="internal-links">
             
-            <Link to="/">
+            <Link to="/" className="nav-link">
                 <img id="/" className="nav-icon" onClick={(e)=>{handleLinkSelection(e.target.id)}} src={user}/>
             </Link>
             
-            <Link to="/resume">
+            <Link to="/resume" className="nav-link">
                 <img id="/resume" onClick={(e)=>{handleLinkSelection(e.target.id)}} className="nav-icon" src={work}/>
             </Link>
             
-            <Link to="/projects">
+            <Link to="/projects" className="nav-link">
                 <img id="/projects" onClick={(e)=>{handleLinkSelection(e.target.id)}} className="nav-icon" src={build}/>
             </Link>
         </div>

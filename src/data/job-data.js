@@ -53,7 +53,7 @@ export const roles=[
         date:"2015-2017", 
         org:"Seattle Central College", 
         title:"Associate of Arts General Transfer Degree", 
-        qualities:["Managing school attendance and participation while maintaining a fulltime professional role.", "Prioritizing projects and assignments to ensure timely completion.", "Fulfilled administrative and academic requirements to access grants to help pay tuition.", "Selecting classes to ensure the max number of transferrable credits.", "Planning prerequisites for potential transfer programs."],
+        qualities:["Managing attendance and participation while maintaining a fulltime professional role.", "Prioritizing projects and assignments to ensure timely completion.", "Fulfilling administrative and academic requirements to access grants.", "Selecting classes to ensure the max number of transferrable credits.", "Planning prerequisites for potential transfer programs."],
         skills:["Planning", "Prioritization", "Self-motivation", "Perseverance", "Goal-setting", "Canvas", "Powerpoint"],
         summary:"Studied a variety of subjects with a focus on Anthropology while maintaining success at a fulltime job. Earned an Associate of Arts degree. Earned a place on the dean's list twice.",
         ed:true,

@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Sidebar />
         <AnimatedRoutes />
+        {/* <Sidebar /> */}
       </Router>
     </div>
   );

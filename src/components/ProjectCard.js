@@ -24,11 +24,11 @@ export default function ProjectCard ({ project }) {
         <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} className='project-card'>
 
             <span name={title} className="project-title">
-            <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
+            <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black-project'>{title}</h2>
             </span>
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="image-container">
-            <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img} width="80%" height="185px" />
+            <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img} height="183px" />
             </span>
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="arrow-container">
