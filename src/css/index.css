@@ -67,7 +67,7 @@ p.connect {
   border-color:black ;
   background-color: black;
   padding:1px;
- border-radius: 50%;
+  border-radius: 50%;
 }
 
 .external-links {
@@ -407,11 +407,12 @@ li.skill-item {
   overflow-y: clip;
   padding-top:1rem;
   position:relative;
+  transition-duration: .5s;
 }
 
 .project-card[expanded] {
   height:40rem;
-  transition-duration: .5s;
+  transition-duration: 1s;
 }
 
 .project-card[expanded] .arrow-container {

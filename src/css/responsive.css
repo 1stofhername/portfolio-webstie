@@ -68,12 +68,17 @@
       }
 
       .sub-title-black {
-        margin:0rem;
+        margin:0rem 0rem 1rem 0rem;
         font-size:24px;
       }
 
       h2.sub-title-black {
           font-size: 18px;
+        
+      }
+
+      .project-image {
+        margin:0rem 0rem 1rem 0rem;
       }
 
       .experience-card {
@@ -108,17 +113,25 @@
         max-height:fit-content;
         min-height:fit-content;
         overflow-y: scroll;
+        margin-bottom: 4rem;
       }
 
-      #details-container {
-        /* max-height:100vh; */
-        /* overflow-y: scroll; */
-        /* overflow-x:scroll; */
-        /* width:100%; */
+      #resume-title {
+        margin-bottom:1rem;
+      }
+
+      .sub-title-job {
+        letter-spacing: 0.2em;
+      }
+
+      p.summary-paragraph {
+        text-align: justify;
+        margin: 0rem 0rem 0.5rem 0.5rem;
       }
 
       #job-details-container {
         overflow-y:scroll;
+        padding:0.5rem;
         /* max-height:fit-content; */
         /* 
         overflow-x:scroll;
@@ -132,12 +145,28 @@
         padding:1.5rem; */
       }
 
+      .back-icon {
+        /* z-index: none; */
+        position:relative;
+        transform:translate(1.5rem, 0.5rem);
+      }
+
       .job-detail {
-    
         padding:1rem;
+        margin-top: .5rem;
+        margin-bottom:.5rem;
+        width:100%;
+      }
+
+      #skills-demonstrated-div {
+        margin-left: 0rem;
       }
 
       /* PROJECTS */
+
+      #projects-page {
+        overflow-y: scroll;
+      }
 
       .projects-container {
           overflow-y: scroll;
@@ -147,7 +176,8 @@
           max-height: fit-content;
           flex-wrap: wrap;
           position: relative;
-          padding-bottom:2rem
+          padding-bottom:2rem;
+          margin-bottom:2rem;
       }
 
       .project-card {
@@ -169,6 +199,10 @@
         transition-duration: 3s;
       }
 
+      #skills-demonstrated {
+        margin-left:0rem;
+      }
+
       .button-container {
         flex-direction: column;
         align-items: center;
@@ -185,6 +219,7 @@
 
       .tool-icon {
         margin:.25rem;
+        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
       }
       
 }

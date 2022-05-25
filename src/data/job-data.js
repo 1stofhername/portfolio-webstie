@@ -15,7 +15,7 @@ export const roles=[
         title:"Product Owner",
         qualities:["Synchronizing values, vision, budget and function on a complex project.", "Defining and iterating a minumum viable product.", "Identifying, understanding, and solving complex problems.", "Adjusting strategy and goals to adapt to changes in budget, resources, and values.", "Identifying gaps in knowledge and building networks of support to cover and self-educate as necessary.", "Web-page building to share knowledge using WYSIWYG web editors."], 
         skills:["Self-teaching", "Self-management", "Collaboration", "Communication", "Resource identification", "Community building", "GoogleSites"],
-        summary:"Designed and built a tiny-home on wheels. Researched, planned and assembled solar-powered electrical system and self-contained plumbing system. The challenge was to build a livable space that was light on the environment and could withstand traveling and stopping at high speeds. Through this experience I discovered a passion for solving difficult problems.",
+        summary:"Designed and built a tiny-home on wheels that functioned as a livable space that could withstand high speed travel and stopping while being light on the environment. Required passion for solving difficult problems.",
         ed:false,
         id:2
     }, 
@@ -25,7 +25,7 @@ export const roles=[
         title:"Fraud Analyst", 
         qualities:["Analyzing and digesting large ammounts of data.", "Using online research to acquire data necessary to determine appropriate action.", "Connecting seemingly esoteric information to discover patterns of user behavior.", "Interpeting information output from Sift machine learning platform and incorporating it into decision-making.", "Explaining my decision-making process to colleauges in ambiguous cases."],
         skills:["Remote-working", "Research", "Deductive reasoning", "Problem-solving", "Slack", "Sift", "Google Suite"],
-        summary:"Combined powerful machine learning software with deductive reasoning to protect customer and company data from fraudulent activity. ",
+        summary:"Combined powerful machine learning software with power of research and deductive reasoning to protect customer and company data from fraudulent activity. ",
         ed:false,
         id:3
     },
@@ -33,9 +33,9 @@ export const roles=[
         date:"2018-2019", 
         org:"Foundation For Health Care Quality", 
         title:"Administrative/Program Coordinator", 
-        qualities:["Solving complex technical, creative, administrative, and operations problems.","Exploring and decision-making regarding technological needs of the organization.", "Adding and updating content to Wordpress sites.", "Bridge-building between various, at times competing, stakeholders.", "Managing long-term projects with multiple complex moving parts.", "Facilitating collaboration between internal and external groups."],
+        qualities:["Solving complex technical, creative, administrative, and operational problems.","Exploring and decision-making regarding technological needs of the organization.", "Adding and updating content to Wordpress sites.", "Bridge-building between various, at times competing, stakeholders.", "Managing long-term projects with multiple complex moving parts.", "Facilitating collaboration between internal and external groups."],
         skills:["Problem-solving", "Technical troubleshooting", "Collaborative management", "Wordpress management", "Microsoft 365"],
-        summary:"A catch-all position for a multi-program non-profit. Specialized in business optimization, technological optimization, and communication coordination.",
+        summary:"Catch-all position with a multi-program non-profit. Specialized in business optimization, tech optimization, and solution-finding.",
         ed:false,
         id:4
     },
