@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { roles } from '../data/job-data';
-import { v4 as uuid } from 'uuid';
 import ExperienceCard from './ExperienceCard';
 
 
