@@ -10,13 +10,8 @@ export default function JobListing ({ title, org, ed, date }) {
         <div key={uuid()} className="experience-card" id={org}>
             <span id="top-corner"></span>
             
-<<<<<<< HEAD
-            <span key={uuid()} id={org} className="title-items">
-                {ed?<img src={graduationCap} className="job-icon" alt="" />:null}
-=======
             <span id={org} className="title-items">
                 {ed?<img src={graduationCap} className="job-icon"/>:null}
->>>>>>> test
                 
                 <h3 id={org} className="role-title">
                     {date}  {org}
