@@ -10,7 +10,7 @@ export const projectData = [
                 readme:"https://github.com/1stofhername/Phase1-Project/blob/main/README.md"
             },
         ],
-        tools:["Vanilla Javascript", "OOP", "JSON"],
+        tools:["Vanilla Javascript", "OOP", "JSON", "CSS3"],
     },
     {
         title: "Idealist",
@@ -23,7 +23,7 @@ export const projectData = [
                 readme:"https://github.com/1stofhername/deployed-idea-list/blob/main/README.md"
             }
         ],
-        tools:["Javascript", "React.js", "JSX", "React-router-dom", "CSS", "Netlify"]
+        tools:["Javascript", "React.js", "JSX", "React Router", "CSS3", "Netlify"]
 
     },
 
@@ -38,7 +38,7 @@ export const projectData = [
                 readme:"https://github.com/1stofhername/portfolio-webstie/blob/main/README.md"
             }
         ],
-        tools:["Javascript", "React.js", "JSX", "React-router-dom", "CSS", "Framer motion", "NoSQL"]
+        tools:["Javascript", "React.js", "JSX", "React Router", "CSS3", "Framer motion", "NoSQL"]
 
     }
 ]
