@@ -11,7 +11,7 @@ export default function JobListing ({ title, org, ed, date }) {
             <span key={uuid()} id="top-corner"></span>
             
             <span key={uuid()} id={org} className="title-items">
-                {ed?<img src={graduationCap} className="job-icon"/>:null}
+                {ed?<img src={graduationCap} className="job-icon" alt="" />:null}
                 
                 <h3 key={uuid()} id={org} className="role-title">
                     {date}  {org}

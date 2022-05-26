@@ -31,7 +31,7 @@ export default function ExperienceDetails () {
         <div className="resume-details-header">
             <div className="back-icon-container">
                 <Link to="/resume" className="nav-link">
-                    <img src={cancel} className="back-icon" />
+                    <img src={cancel} className="back-icon" alt="Exit details button" />
                 </Link>
             </div>
             <h1 className="sub-title-black" id="detail-title">
