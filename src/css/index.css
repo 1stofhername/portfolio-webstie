@@ -284,11 +284,12 @@ code {
   width:1rem;
   border-color: grey;
   border-style: solid;
-  border-bottom: 1px;
-  border-right:1px;
+  border-top: 1px;
+  border-left:1px;
   align-self:flex-start;
-  margin-left:1rem;
-  transform: translate(0rem, -1.25rem);
+  margin-right:1rem;
+  position: absolute;
+  transform: translate(1rem, -3.5rem) rotate(180deg);
 }
 
 #bottom-corner {
@@ -300,7 +301,8 @@ code {
   border-left:1px;
   align-self:flex-end;
   margin-right:1rem;
-  transform: translate(0rem, 1.25rem);
+  position: absolute;
+  transform: translate(0rem, 3.5rem);
 }
 
 .resume-details-header {

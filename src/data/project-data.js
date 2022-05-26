@@ -32,7 +32,7 @@ export const projectData = [
         img:"https://i.ibb.co/L8r6rsz/portfolio-cap.png",
         links:[
             {
-                demo:"https://idealist-app.netlify.app/"
+                code:"https://github.com/1stofhername/portfolio-webstie"
             },
             {
                 readme:"https://github.com/1stofhername/portfolio-webstie/blob/main/README.md"
