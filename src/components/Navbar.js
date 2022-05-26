@@ -1,6 +1,7 @@
 import user from '../assets/icons/user.svg';
 import work from '../assets/icons/work.svg';
 import build from '../assets/icons/build.svg';
+import { Link } from 'react-router-dom';
 
 export default function Navbar () {
 
