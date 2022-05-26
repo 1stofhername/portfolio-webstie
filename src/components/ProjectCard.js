@@ -46,6 +46,9 @@ export default function ProjectCard ({ project }) {
                     } else if (link.readme) {
                         url=link.readme;
                         linkType="Read more"
+                    } else if (link.code) {
+                        url=link.code;
+                        linkType="Source code"
                     }
                     return (
                         <button key={uuid()} name={title} className="project-button" onClick={()=> window.open(url, "_blank")}>
