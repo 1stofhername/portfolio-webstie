@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from './Home';
 import ExperienceContainer from './ExperienceContainer';
@@ -7,6 +7,8 @@ import ExperienceDetails from './ExperienceDetails';
 import Sidebar from './Sidebar';
 
 export default function AnimatedRoutes () {
+
+  const location = useLocation({});
 
     return (
     
