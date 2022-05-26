@@ -29,7 +29,7 @@ export const projectData = [
 
     {
         title: "Portfolio",
-        img:"https://i.ibb.co/wBHJVmc/Screen-Shot-2022-05-20-at-4-53-18-PM.png",
+        img:"https://i.ibb.co/L8r6rsz/portfolio-cap.png",
         links:[
             {
                 demo:"https://idealist-app.netlify.app/"
