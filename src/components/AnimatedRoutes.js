@@ -26,7 +26,7 @@ export default function AnimatedRoutes () {
         <Routes location={location} key={location.pathname}>
           <Route path="/resume" element={<ExperienceContainer handleJobClick={handleJobClick}/>} />
           <Route path="/projects" element={<ProjectsContainer />} />
-          <Route path="/resume/:id" element={<ExperienceDetails />} selectedJob={selectedJob} />
+          <Route path="/resume/:org" element={<ExperienceDetails />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </AnimatePresence>

@@ -1,11 +1,13 @@
 import { v4 as uuid } from 'uuid';
 import graduationCap from "../assets/icons/graduation-cap.svg";
+import { Link } from 'react-router-dom';
 
-export default function JobListing ({ title, org, ed, date, handleJobClick }) {
+export default function JobListing ({ title, org, ed, date }) {
 
     return (
 
-        <div key={uuid()} className="experience-card" id={org} onClick={(e)=>{handleJobClick(e.target.id)}}>
+        <Link to={`/resume/${org}`} className="experience-link">
+        <div key={uuid()} className="experience-card" id={org}>
             <span key={uuid()} id="top-corner"></span>
             
             <span key={uuid()} id={org} className="title-items">
@@ -21,6 +23,7 @@ export default function JobListing ({ title, org, ed, date, handleJobClick }) {
             <span key={uuid()} id="bottom-corner"></span>
 
         </div> 
+        </Link>
 
     )
 }

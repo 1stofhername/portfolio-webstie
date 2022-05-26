@@ -35,7 +35,7 @@ export const projectData = [
                 demo:"https://idealist-app.netlify.app/"
             },
             {
-                readme:"https://github.com/1stofhername/Phase1-Project/blob/main/README.md"
+                readme:"https://github.com/1stofhername/portfolio-webstie/blob/main/README.md"
             }
         ],
         tools:["Javascript", "React.js", "JSX", "React-router-dom", "CSS", "Framer motion", "NoSQL"]

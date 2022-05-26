@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import { v4 as uuid } from 'uuid';
-import cancel from '../assets/icons/cancel.svg';
 import youtube from '../assets/icons/youtube.svg';
 
 
@@ -21,14 +19,14 @@ export default function ProjectCard ({ project }) {
 
     return (
         
-        <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} className='project-card'>
+        <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} expanded={undefined} className='project-card'>
 
             <span name={title} className="project-title">
             <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black-project'>{title}</h2>
             </span>
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="image-container">
-            <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img} height="183px" />
+            <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img} height="183px" alt="" />
             </span>
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="arrow-container">
@@ -52,7 +50,7 @@ export default function ProjectCard ({ project }) {
                     return (
                         <button key={uuid()} name={title} className="project-button" onClick={()=> window.open(url, "_blank")}>
                             {linkType==="Walkthrough"?
-                            <img id="video-icon" src={youtube}/>:
+                            <img id="video-icon" src={youtube} alt="" />:
                             null}
                             <p>{linkType}</p>
                             </button>

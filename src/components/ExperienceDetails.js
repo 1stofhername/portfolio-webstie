@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import { roles } from '../data/job-data';
 import { v4 as uuid } from 'uuid';
+import { useParams, Link } from 'react-router-dom';
+import cancel from '../assets/icons/cancel.svg';
 
-export default function ExperienceDetails ({ org }) {
+export default function ExperienceDetails () {
+
+    const { org } = useParams();
 
     let role = roles.filter((role)=>{return(role.org===org)});
     const { title, qualities, skills, summary }=role[0];
@@ -16,15 +20,31 @@ export default function ExperienceDetails ({ org }) {
     });
 
     return (
+
+        <motion.div 
+        id="resume-detail-section"
+        initial={{ height:0 }}
+        animate={{ height:"100vh" }}
+        exit={{ y: window.innerHeight, transition: { duration: 1.5 } }}
+        >
         
+        <div className="resume-details-header">
+            <div className="back-icon-container">
+                <Link to="/resume" className="nav-link">
+                    <img src={cancel} className="back-icon" />
+                </Link>
+            </div>
+            <h1 className="sub-title-black" id="detail-title">
+                {org}
+            </h1>
+        </div>
+
         <motion.div 
         id="resume-sub-section"
         initial={{ height:0 }}
         animate={{ height:"100vh" }}
         exit={{ y: window.innerHeight, transition: { duration: 1.5 } }}
         >
-
-            
 
             <div id="job-details-container">
 
@@ -54,6 +74,8 @@ export default function ExperienceDetails ({ org }) {
                 </div>
             </div>
         
+        </motion.div>
+
         </motion.div>
 
     )
