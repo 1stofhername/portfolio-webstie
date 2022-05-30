@@ -15,9 +15,10 @@ export default function Projects () {
             >
                 <h1 className="sub-title-black" id="projects-title">Projects</h1>
 
-                <div className="projects-container">
+                <div className="projects-container" id="projects-parent">
 
                 <motion.div 
+                id="projects-child"
                 className="projects-container"
                 initial={{ height:0 }}
                 animate={{ height:"100vh" }}
