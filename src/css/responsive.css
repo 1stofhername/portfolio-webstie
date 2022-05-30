@@ -177,6 +177,7 @@
 
       #skills-demonstrated-div {
         margin-left: 0rem;
+        margin-bottom:15rem;
       }
 
       /* PROJECTS */
@@ -596,7 +597,7 @@
   }
 
   .contact-menu {
-      width:90%;
+      width:60%;
       margin-left:auto;
       margin-right: auto;
   }
@@ -716,6 +717,7 @@
 
   #skills-demonstrated-div {
     margin-left: 0rem;
+    margin-bottom:15rem;
   }
 
   /* PROJECTS */
@@ -793,5 +795,602 @@
   .tool-icon {
     margin:.25rem;
     padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  }
+}
+
+@media all and (min-width:601px) and (max-width: 800px) {
+
+  * {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    overflow-y: hidden;
+  }
+
+.side-bar {
+  background-color: rgba(255,255,255, .9);
+  display:inline-flex;
+  flex-direction: column;
+  width:3.5em;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display:flex;
+  max-height: 100%;
+  padding-top:3%;
+}
+
+#internal-links {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.nav-icon {
+    width:2.25rem;
+    margin:1.5rem 0rem 0.5rem 0rem;
+  }
+
+  .nav-link {
+    width:fit-content;
+  }
+
+  .page-section {
+    max-height:100vh;
+    overflow-y: hidden;
+  }
+
+#home-page {
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    height:90vh;
+  }
+  
+  #home {
+    height:fit-content;
+    width:100%;
+  }
+
+  .title {
+    width:60%;
+    height:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .sub-title {
+    width:fit-content;
+  }
+
+  .contact-menu {
+      width:60%;
+      margin-left:auto;
+      margin-right: auto;
+  }
+
+  p.connect {
+    transform: translateX(15px);
+  }
+
+  .contact-icons {
+  margin-right:0.5rem;
+  }
+
+  /* RESUME MAIN */
+
+  .resume-container {
+    overflow-y: auto;
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom:2rem;
+  }
+
+  .sub-title-black {
+    margin:0rem 0rem 1rem 0rem;
+    font-size:24px;
+  }
+
+  h2.sub-title-black {
+      font-size: 18px;
+    
+  }
+
+  .experience-card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    padding:1rem;
+    height:10rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+
+  .role-details {
+    text-align: center;
+  }
+
+  #top-corner {
+      position:absolute;
+      transform: translate(1rem, -3.5rem) rotate(180deg);
+  }
+
+  #bottom-corner {
+    position:absolute;
+  transform: translate(1.0rem, 4.5rem);
+  }
+
+  /* JOB SUBPAGE */
+
+  .back-icon {
+    margin-right:0.25rem;
+  }
+
+  .back-icon-container {
+    align-self:center;
+  }
+
+  .resume-container[detailed] {
+    max-height:fit-content;
+    min-height:fit-content;
+    overflow-y: scroll;
+    margin-bottom: 4rem;
+  }
+
+  #resume-title {
+    margin-bottom:1rem;
+    position:relative;
+    margin-top: 1rem;
+  }
+
+  .sub-title-job {
+    letter-spacing: 0.2em;
+    margin:0rem 0rem 0.5rem 0rem;
+  }
+
+  p.summary-paragraph {
+    text-align: justify;
+
+  }
+
+  #job-details-container {
+    overflow-y:scroll;
+    padding:0.5rem;
+    /* max-height:fit-content; */
+    /* 
+    overflow-x:scroll;
+    width:fit-content;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:1.5rem; */
+  }
+
+  .job-detail {
+    padding:1rem;
+    margin-top: .5rem;
+    margin-bottom:.5rem;
+    width:100%;
+  }
+
+  #skills-demonstrated-div {
+    margin-left: 0rem;
+    margin-bottom:15rem;
+  }
+
+  /* PROJECTS */
+
+  #projects-page {
+    overflow-y: scroll;
+  }
+
+  #projects-title {
+    margin-top:1rem;
+  }
+
+  .projects-container {
+      overflow-y: scroll;
+      display: inline-block;
+      justify-content: space-around;
+      width:100%;
+      max-height: fit-content;
+      flex-wrap: wrap;
+      position: relative;
+  }
+
+  .projects-child {
+    margin-bottom:2rem;
+  }
+
+  .project-card {
+    height:16rem;
+    width:18rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-y: clip;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    position:relative;
+  }
+  
+  .project-card[expanded] {
+    height:fit-content;
+    transition-duration: 3s;
+  }
+
+  h2.sub-title-black-project {
+    font-size: 18px;
+    margin-bottom:1rem;
+  
+}
+
+  .project-image {
+    margin:0rem 0rem 1rem 0rem;
+    height:10.5rem;
+    /* width:85%; */
+    margin-bottom:1.75rem;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0rem 0.25rem 0rem;
+    margin-top:0.75rem;
+  }
+
+  button {
+    margin-top: 1rem;
+  }
+
+  .tool-container {
+    padding-top:1rem;
+  }
+
+  .tool-icon {
+    margin:.25rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  }
+}
+
+@media all and (min-width:800px) and (max-width: 980px) {
+  
+  /* RESUME */
+
+  .resume-container {
+    overflow-y: scroll;
+    display:block;
+    height: 100vh;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom:2rem;
+  }
+
+  .experience-card {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #job-details-container {
+    height:fit-content;
+  }
+
+  .job-detail {
+    margin-top:2rem;
+  }
+
+  /* PROJECTS */
+
+
+  .projects-container {
+    overflow-y: scroll;
+    display: block;
+    justify-content: space-around;
+    width:100%;
+    max-height: fit-content;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom:2rem;
+  }
+
+  .project-card {
+    height:16rem;
+    width:25rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-y: clip;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    position:relative;
+  }
+  
+  .project-card[expanded] {
+    height:fit-content;
+    transition-duration: 3s;
+  }
+
+  h2.sub-title-black-project {
+    font-size: 1.15rem;
+    margin-bottom:1rem;
+  
+}
+}
+
+@media all and (min-width:981px) and (max-width: 1024px){
+   /* RESUME */
+
+   .resume-container {
+    overflow-y: scroll;
+    display:block;
+    height: 100vh;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom:2rem;
+  }
+
+  .experience-card {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #job-details-container {
+    height:fit-content;
+  }
+
+  .job-detail {
+    margin-top:2rem;
+  }
+
+  /* PROJECTS */
+
+
+  .projects-container {
+    overflow-y: scroll;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    max-height: fit-content;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom:4rem;
+  }
+
+  .project-card {
+    height:18rem;
+    min-height:18rem;
+    width:25rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-y: clip;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    position:relative;
+  }
+  
+  .project-card[expanded] {
+    height:fit-content;
+    transition-duration: 3s;
+  }
+
+  h2.sub-title-black-project {
+    font-size:24px;
+    margin-bottom:1rem;
+  
+}
+}
+
+@media all and (min-width:1025px) and (max-width: 1200px){
+  /* RESUME */
+
+  .resume-container {
+    overflow-y: scroll;
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    padding-bottom:2rem;
+  }
+
+ .experience-card {
+  margin-left:0rem;
+  margin-right:0rem;
+  width:28em;
+}
+
+.experience-link {
+  width:fit-content;
+}
+
+.job-icon {
+  margin:0rem .5rem 0rem .5rem;
+}
+
+.role-details {
+  text-align:center;
+}
+
+.experience-link{
+  width:fit-content;
+}
+
+ #job-details-container {
+   height:fit-content;
+ }
+
+ .job-detail {
+   margin-top:2rem;
+ }
+
+ /* PROJECTS */
+
+
+ .projects-container {
+   overflow-y: scroll;
+   display: flex;
+   justify-content: space-around;
+   width:100%;
+   max-height: fit-content;
+   flex-wrap: wrap;
+   position: relative;
+   margin-bottom:4rem;
+ }
+
+ .project-card {
+   height:18rem;
+   min-height:18rem;
+   width:25rem;
+   margin-top:2rem;
+   margin-bottom:2rem;
+   margin-right:auto;
+   margin-left:auto;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   overflow-y: clip;
+   padding-top:1rem;
+   padding-bottom:1rem;
+   position:relative;
+ }
+ 
+ .project-card[expanded] {
+   height:fit-content;
+   transition-duration: 3s;
+ }
+
+ h2.sub-title-black-project {
+   font-size:24px;
+   margin-bottom:1rem;
+ 
+}
+}
+
+@media all and (min-width:1201px) and (max-width: 1244px){
+  .resume-container {
+    overflow-y: scroll;
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom:2rem;
+  }
+ 
+  .experience-card {
+    margin-left:0rem;
+    margin-right:0rem;
+    width:33rem;
+  }
+
+  .experience-link{
+    width:fit-content;
+  }
+
+  #job-details-container {
+    height: fit-content;
+  }
+
+  .job-detail {
+    margin-top:2rem;
+  }
+
+  .project-card {
+    height:18rem;
+    min-height:18rem;
+    width:23rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-y: clip;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    position:relative;
+  }
+
+  .button-container {
+    display:inline;
+  }
+
+  .project-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1rem;
+  }
+}
+
+@media all and (min-width:1245px) and (max-width: 1406px){
+  .resume-container {
+    overflow-y: scroll;
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom:2rem;
+  }
+ 
+  .experience-card {
+    margin-left:0rem;
+    margin-right:0rem;
+    width:35rem;
+  }
+
+  .experience-link{
+    width:fit-content;
+  }
+
+  #job-details-container {
+    height: fit-content;
+  }
+
+  .job-detail {
+    margin-top:2rem;
+  }
+
+  .project-card {
+    height:18rem;
+    min-height:18rem;
+    width:23rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-y: clip;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    position:relative;
+  }
+
+  .button-container {
+    display:inline;
+  }
+
+  .project-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1rem;
   }
 }
