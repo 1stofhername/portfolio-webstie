@@ -45,7 +45,7 @@ p.connect {
   background-color: rgba(255,255,255, .9);
   display:inline-flex;
   flex-direction: column;
-  width:4em;
+  width:3.5em;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   display:flex;
   justify-content: space-between;
@@ -114,6 +114,7 @@ p.connect {
   letter-spacing: 0.01em;
   color:black;
   text-shadow: 0 1px 0 rgba(242,132,130, 0.4);
+  margin-left:0.1rem;
 }
 
 .sub-title {
@@ -121,7 +122,7 @@ p.connect {
   color:white;
   letter-spacing: 0.615em;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  margin:0.5rem;
+  margin:0.5rem 0rem 0.5rem 0rem;
 }
 
 #fullstack-dev {
