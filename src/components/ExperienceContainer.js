@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import pdf from '../assets/icons/pdf.svg';
 import { roles } from '../data/job-data';
 import ExperienceCard from './ExperienceCard';
+
 
 
 
@@ -16,6 +18,9 @@ export default function Resume () {
             exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
             <div className="resume-header">
+                <a  className="pdf-link" href="https://docs.google.com/document/d/e/2PACX-1vSmFVP7YUqOnSlZB5zsdrn-DfWZQfloFNxXxVII51sfRL8gxvlfNaGZXq4nELZ7IBli78j_QsVOV4cP/pub" target="_blank" rel="noreferrer">
+                    <img className="pdf-icon" src={pdf} />
+                </a>
                 <h1 id="resume-title" className="sub-title-black">
                     Resume
                 </h1>
