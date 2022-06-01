@@ -40,6 +40,16 @@ export const roles=[
         id:4
     },
     {
+        date:"2016-2018", 
+        org:"Seattle Central College", 
+        title:"Associate of Arts General Transfer Degree", 
+        qualities:["Managing attendance and participation while maintaining a fulltime professional role.", "Prioritizing projects and assignments to ensure timely completion.", "Fulfilling administrative and academic requirements to access grants.", "Selecting classes to ensure the max number of transferrable credits.", "Planning prerequisites for potential transfer programs."],
+        skills:["Planning", "Prioritization", "Self-motivation", "Perseverance", "Goal-setting", "Canvas", "Powerpoint"],
+        summary:"Studied a variety of subjects with a focus on Anthropology while maintaining success at a fulltime job. Earned an Associate of Arts degree. Earned a place on the dean's list twice.",
+        ed:true,
+        id:6
+    },
+    {
         date:"2015-2017", 
         org:"Classmates", 
         title:"Operations Specialist", 
@@ -48,15 +58,5 @@ export const roles=[
         summary:"Bridging communication gaps between customers, customer service teams, marking teams, and development team through creating tickets or direct communication. Identifying problems and determining the correct team to escalate to and ensuring all steps taken to resolve issues were well documented.",
         ed:false,
         id:5
-    },
-    {
-        date:"2015-2017", 
-        org:"Seattle Central College", 
-        title:"Associate of Arts General Transfer Degree", 
-        qualities:["Managing attendance and participation while maintaining a fulltime professional role.", "Prioritizing projects and assignments to ensure timely completion.", "Fulfilling administrative and academic requirements to access grants.", "Selecting classes to ensure the max number of transferrable credits.", "Planning prerequisites for potential transfer programs."],
-        skills:["Planning", "Prioritization", "Self-motivation", "Perseverance", "Goal-setting", "Canvas", "Powerpoint"],
-        summary:"Studied a variety of subjects with a focus on Anthropology while maintaining success at a fulltime job. Earned an Associate of Arts degree. Earned a place on the dean's list twice.",
-        ed:true,
-        id:6
     }
 ];
