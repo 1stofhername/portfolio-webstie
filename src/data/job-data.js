@@ -30,7 +30,7 @@ export const roles=[
         id:3
     },
     {
-        date:"2018-2019", 
+        date:"2018-2020", 
         org:"Foundation For Health Care Quality", 
         title:"Administrative/Program Coordinator", 
         qualities:["Solving complex technical, creative, administrative, and operational problems.","Exploring and decision-making regarding technological needs of the organization.", "Adding and updating content to Wordpress sites.", "Bridge-building between various, at times competing, stakeholders.", "Managing long-term projects with multiple complex moving parts.", "Facilitating collaboration between internal and external groups."],
