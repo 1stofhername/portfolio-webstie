@@ -5,6 +5,7 @@ import ExperienceContainer from './ExperienceContainer';
 import ProjectsContainer from './ProjectsContainer';
 import ExperienceDetails from './ExperienceDetails';
 import Sidebar from './Sidebar';
+import Blogs from './Blogs';
 
 export default function AnimatedRoutes () {
 
@@ -16,8 +17,10 @@ export default function AnimatedRoutes () {
       <Sidebar />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
-          <Route path="/resume" element={<ExperienceContainer />} />
+          <Route path="/blogs" element={<Blogs />} />
+          {/* <Route path="/blogs/:id" element={<ExperienceDetails />} /> */}
           <Route path="/projects" element={<ProjectsContainer />} />
+          <Route path="/resume" element={<ExperienceContainer />} />
           <Route path="/resume/:org" element={<ExperienceDetails />} />
           <Route path="/" element={<Home />} />
         </Routes>

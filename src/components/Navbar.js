@@ -5,20 +5,39 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar () {
 
+    const navLinks = [
+        {
+            'home':'/'
+        }, 
+        {
+            'resume':"/resume"
+        }, 
+        {
+            'projects':"/projects"
+        }
+    ]
+
     return (
         
         <div id="internal-links">
+    
             
             <Link to="/" className="nav-link">
-                <img id="home-page-link" className="nav-icon" src={home} alt="home-link" />
+                {/* <img src={home} alt="home page" id="home-page-link" className='nav-icon'/> */}
+                <p id="home-page-link" className="nav-icon">Home</p>
             </Link>
             
+            
             <Link to="/resume" className="nav-link" id="resume-page-link">
-                <img id="resume-page-link" className="nav-icon" src={work} alt="resume-link" />
+                <p id="resume-page-link" className="nav-icon">Resume</p>
             </Link>
             
             <Link to="/projects" className="nav-link" id="projects-page-link">
-                <img id="projects-page-link" className="nav-icon" src={build} alt="projects-link" />
+                <p id="projects-page-link" className="nav-icon">Projects</p>
+            </Link>
+
+            <Link to="/blogs" className="nav-link" id="blogs-page-link">
+                <p id="blogs-page-link" className="nav-icon">Blogs</p>
             </Link>
         </div>
     )

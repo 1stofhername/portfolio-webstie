@@ -32,35 +32,46 @@ p.connect {
   background: rgb(245,202,195);
   background: linear-gradient(162deg, rgba(245,202,195,1) 0%, rgba(247,237,226,1) 100%);
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
 }
 
 .page-section {
   height:100vh;
-  /* min-height:100vh; */
-  /* padding:20px; */
 }
 
 .side-bar {
   background-color: rgba(255,255,255, .9);
   display:inline-flex;
   flex-direction: column;
-  width:3.5em;
+  width:100%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   display:flex;
   justify-content: space-between;
-  max-height: 100%;
-  padding-top:3%;
+  /* align-items: center; */
+  height:7vh;
+  /* padding-top:3%; */
 }
 
-.internal-links {
+#internal-links {
+  margin-top:auto;
+  margin-bottom:auto;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-link{
+  width:fit-content;
 }
 
 .nav-icon {
-  width:2rem;
-  margin:1.5rem 0rem 0.5rem 0rem;
+  width:fit-content;
+  height:fit-content;
+  font-family: 'Bebas Neue';
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+  color:black;
+  /* text-shadow: 0 1px 0 rgba(242,132,130, 0.4); */
   
 }
 
