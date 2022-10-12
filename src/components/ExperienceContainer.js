@@ -26,7 +26,7 @@ export default function Resume () {
                 </h1>
             </div>
 
-            <div className='resume-container' id="parent-section">
+            <div id="parent-section">
             
             <motion.div 
             className="resume-container" 
