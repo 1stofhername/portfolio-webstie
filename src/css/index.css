@@ -65,6 +65,11 @@ p.connect {
   text-decoration: none;
 }
 
+.nav-icon[selected] {
+  color:rgba(242, 132, 130, 1);
+  border-color:rgba(242, 132, 130, 1);
+}
+
 .nav-icon {
   width:fit-content;
   height:fit-content;
@@ -72,17 +77,20 @@ p.connect {
   font-size: 1.5rem;
   letter-spacing: 0.01em;
   color:black;
-  /* text-shadow: 0 1px 0 rgba(242,132,130, 0.4); */
-  
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-color:rgba(255,255,255, 0);
+  padding-bottom:3px;
+  padding-top:5px;
 }
 
-.nav-icon[selected] {
+/* .nav-icon[selected] {
   border-style: solid;
   border-color:black ;
   background-color: black;
   padding:1px;
   border-radius: 50%;
-}
+} */
 
 .external-links {
   display:inline-flex;

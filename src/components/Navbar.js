@@ -10,15 +10,16 @@ export default function Navbar () {
     const { isActive, setIsActive } = useState("");
     
     function activateLink (e) {
-        console.log(e.target.id);
+        const navLinks = document.getElementsByClassName('nav-icon');
+        for (let element of navLinks){
+            if (element.id === e.target.id){
+                element.setAttribute('selected', true);
+            } else {
+                element.removeAttribute('selected');
+            }
+        }
     }
-
-    // const navLinks = document.getElementsByClassName('nav-link');
-
-    // for (let i = 0; i < navLinks.length; i++) {
-    //     console.log(navLinks[i].selected);
-    // }
-
+    
     return (
         
         <div id="internal-links">
@@ -29,15 +30,15 @@ export default function Navbar () {
             </Link>
             
             
-            <Link to="/resume" className="nav-link" id="resume-page-link" selected={false}>
+            <Link to="/resume" className="nav-link" id="resume-page-link" onClick={activateLink}>
                 <p id="resume-page-link" className="nav-icon">Resume</p>
             </Link>
             
-            <Link to="/projects" className="nav-link" id="projects-page-link" selected={false}>
+            <Link to="/projects" className="nav-link" id="projects-page-link" onClick={activateLink}>
                 <p id="projects-page-link" className="nav-icon">Projects</p>
             </Link>
 
-            <Link to="/blogs" className="nav-link" id="blogs-page-link" selected={false}>
+            <Link to="/blogs" className="nav-link" id="blogs-page-link" onClick={activateLink}>
                 <p id="blogs-page-link" className="nav-icon">Blogs</p>
             </Link>
         </div>
