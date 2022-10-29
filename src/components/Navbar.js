@@ -1,18 +1,39 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Navbar () {
-    
-    function activateLink (e) {
-        const navLinks = document.getElementsByClassName('nav-icon');
-        for (let element of navLinks){
-            if (element.id === e.target.id){
-                element.setAttribute('selected', true);
-            } else {
-                element.removeAttribute('selected');
+
+    const [activeLink, setActiveLink] = useState("home-page-link");
+
+    useEffect(()=>{
+        if(activeLink){
+            const navLinks = document.getElementsByClassName('nav-icon');
+            for (let element of navLinks){
+                if (element.id === activeLink){
+                    element.setAttribute('selected', true);
+                } else {
+                    element.removeAttribute('selected');
+                }
             }
         }
+    },[activeLink])
+
+    function activateLink (e) {
+        setActiveLink(()=>e.target.id);
     }
+    
+    // function activateLink (e) {
+    //     const navLinks = document.getElementsByClassName('nav-icon');
+    //     setActiveLink(()=>e.target.id);
+    //     for (let element of navLinks){
+    //         if (element.id === activeLink){
+    //             element.setAttribute('selected', true);
+    //         } else {
+    //             element.removeAttribute('selected');
+    //         }
+    //     }
+    // }
     
     return (
         

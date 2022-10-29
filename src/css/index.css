@@ -23,6 +23,10 @@ p {
   text-align: left;
 }
 
+h2 {
+  font-size: 1.3em;
+}
+
 p.connect {
   text-align: left;
   transform: translateX(25px);
@@ -463,7 +467,7 @@ li.skill-item {
 
 .project-card[expanded] .arrow-container {
   transform:rotate(180deg);
-  transition-duration: .2s;
+  transition-duration: .5s;
 }
 
 .card-title {
@@ -490,6 +494,7 @@ height:3.5rem;
   height: 1rem;
   display: flex;
   justify-content: center;  
+  transition-duration: .5s;
 }
 
 .expand-arrow {
