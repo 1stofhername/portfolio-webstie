@@ -466,10 +466,12 @@ li.skill-item {
   transition-duration: .2s;
 }
 
-.project-title {
-
+.card-title {
 display:flex;
-align-items: center;
+margin-left: auto;
+margin-right:auto;
+width:fit-content;
+height:3.5rem;
 }
 
 .close-icon {

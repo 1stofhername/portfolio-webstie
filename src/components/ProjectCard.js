@@ -21,7 +21,7 @@ export default function ProjectCard ({ project }) {
         
         <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} expanded={undefined} className='project-card'>
 
-            <span name={title} className="project-title">
+            <span name={title} className="card-title">
             <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
             </span>
 
