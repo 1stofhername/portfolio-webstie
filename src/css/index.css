@@ -436,6 +436,8 @@ li.skill-item {
   width:fit-content;
   align-items: flex-end;
   margin: 2rem auto 0px auto;
+  padding-bottom:.5rem;
+
   /* height:2rem; */
 }
 

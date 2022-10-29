@@ -21,7 +21,7 @@ export default function Resume () {
                 <a  className="pdf-link" href="https://docs.google.com/document/d/e/2PACX-1vRTxL47yONAu1zHoo8XYkoSX1ZLs8Ox1XvI5JzzDzaYkMKd4ntjD6YiWAx1EYYRD0Bk5EYGkECl9h76/pub">
                     <img className="pdf-icon" src={pdf} alt="resume pdf" />
                 </a>
-                <h1 className="title-black">
+                <h1 className="sub-title-black">
                     Resume
                 </h1>
             </div>
