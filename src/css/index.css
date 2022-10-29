@@ -121,7 +121,6 @@ p.connect {
   text-align: left;
   width:fit-content;
   margin-top:10%;
-  /* margin-bottom: auto; */
 }
 
 .name {
@@ -287,8 +286,6 @@ code {
   letter-spacing: 0.4em;
   margin:0rem .25rem 0rem .25rem;
   font-family: 'Bebas Neue', cursive;
-  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
-
 }
 
 .role-details {
@@ -423,12 +420,6 @@ li.skill-item {
   position: relative;
 }
 
-/* #projects-title {
-  margin-right:auto;
-  margin-left:auto;
-  margin-top:1rem;
-} */
-
 .page-title {
   display:flex;
   margin-right:auto;
@@ -437,8 +428,6 @@ li.skill-item {
   align-items: flex-end;
   margin: 2rem auto 0px auto;
   padding-bottom:.5rem;
-
-  /* height:2rem; */
 }
 
 .title-black {

@@ -23,18 +23,6 @@ export default function Navbar () {
         setActiveLink(()=>e.target.id);
     }
     
-    // function activateLink (e) {
-    //     const navLinks = document.getElementsByClassName('nav-icon');
-    //     setActiveLink(()=>e.target.id);
-    //     for (let element of navLinks){
-    //         if (element.id === activeLink){
-    //             element.setAttribute('selected', true);
-    //         } else {
-    //             element.removeAttribute('selected');
-    //         }
-    //     }
-    // }
-    
     return (
         
         <div id="internal-links">
@@ -53,9 +41,9 @@ export default function Navbar () {
                 <p id="projects-page-link" className="nav-icon">Projects</p>
             </Link>
 
-            <Link to="/blogs" className="nav-link" id="blogs-page-link" onClick={activateLink}>
+            {/* <Link to="/blogs" className="nav-link" id="blogs-page-link" onClick={activateLink}>
                 <p id="blogs-page-link" className="nav-icon">Blogs</p>
-            </Link>
+            </Link> */}
         </div>
     )
 }

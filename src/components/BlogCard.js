@@ -11,7 +11,7 @@ export default function BlogCard ({ blog }) {
         };
     };
 
-    const { title, links, img, tools } = blog;
+    const { title, img } = blog;
 
     return (
         
