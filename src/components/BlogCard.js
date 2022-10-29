@@ -1,8 +1,3 @@
-import { v4 as uuid } from 'uuid';
-import youtube from '../assets/icons/youtube.svg';
-
-
-
 export default function BlogCard ({ blog }) {
 
     function handleProjectClick (e) {

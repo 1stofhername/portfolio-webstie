@@ -84,14 +84,6 @@ p.connect {
   padding-top:5px;
 }
 
-/* .nav-icon[selected] {
-  border-style: solid;
-  border-color:black ;
-  background-color: black;
-  padding:1px;
-  border-radius: 50%;
-} */
-
 .external-links {
   display:inline-flex;
   flex-direction: column;

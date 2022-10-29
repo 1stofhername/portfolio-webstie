@@ -1,13 +1,7 @@
-import home from '../assets/icons/home.svg';
-import work from '../assets/icons/work.svg';
-import build from '../assets/icons/build.svg';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import React from 'react';
 
 export default function Navbar () {
-
-    const { isActive, setIsActive } = useState("");
     
     function activateLink (e) {
         const navLinks = document.getElementsByClassName('nav-icon');
