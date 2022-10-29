@@ -226,10 +226,13 @@ code {
 .pdf-link {
   height: fit-content;
   width:fit-content;
+  margin-right:10px;
 }
 
 .pdf-icon {
   height: 1.9rem;
+  width:fit-content;
+  margin:0px;
 }
 
 .experience-card {
@@ -427,7 +430,9 @@ li.skill-item {
   margin-right:auto;
   margin-left:auto;
   width:fit-content;
-  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 2rem auto 0px auto;
+  /* height:2rem; */
 }
 
 .title-black {

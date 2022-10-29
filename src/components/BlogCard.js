@@ -18,7 +18,7 @@ export default function BlogCard ({ blog }) {
         <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} expanded={undefined} className='project-card'>
 
             <span name={title} className="project-title">
-            <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black-project'>{title}</h2>
+            <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
             </span>
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="image-container">
