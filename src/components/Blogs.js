@@ -11,7 +11,9 @@ export default function Blogs () {
         animate={{ height:"100vh" }}
         exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
-            <h1 className="sub-title-black" id="projects-title">Blogs</h1>
+            <div className="page-title">
+                <h1 className="sub-title-black" id="projects-title">Blogs</h1>
+            </div>
 
             <div className="projects-container" id="projects-parent">
 

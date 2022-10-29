@@ -223,21 +223,9 @@ code {
   align-content: space-around;
 }
 
-.resume-header {
-  display:flex;
-  flex-direction:row;
-  width:85%;
-  justify-content: center;
-  margin-left:auto;
-  margin-right:auto;
-}
-
 .pdf-link {
   height: fit-content;
   width:fit-content;
-  margin-top:0.5rem;
-  margin-right:0.5rem;
-  
 }
 
 .pdf-icon {
@@ -403,7 +391,7 @@ li.skill-item {
   color:black;
   letter-spacing: 0.615em;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  margin:0.5rem;
+  padding-top:1.25rem;
   width:fit-content;
 }
 
@@ -428,10 +416,26 @@ li.skill-item {
   position: relative;
 }
 
-#projects-title {
+/* #projects-title {
   margin-right:auto;
   margin-left:auto;
   margin-top:1rem;
+} */
+
+.page-title {
+  display:flex;
+  margin-right:auto;
+  margin-left:auto;
+  width:fit-content;
+  justify-content: flex-start;
+}
+
+.title-black {
+  font-family: 'Bebas Neue', cursive;
+  color:black;
+  letter-spacing: 0.615em;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  width:fit-content;
 }
 
 .project-card {
@@ -461,18 +465,6 @@ li.skill-item {
 
 display:flex;
 align-items: center;
-}
-
-.sub-title-black-project {
-  font-family: 'Bebas Neue', cursive;
-  color:black;
-  letter-spacing: 0.615em;
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  margin-top:0.5rem;
-  margin-bottom:0.5rem;
-  margin-left: auto;
-  margin-right:auto;
-  width:fit-content;
 }
 
 .close-icon {
