@@ -26,7 +26,6 @@ export const projectData = [
         tools:["Javascript", "React.js", "JSX", "React Router", "CSS3", "Netlify"]
 
     },
-
     {
         title: "Portfolio",
         img:"https://i.ibb.co/L8r6rsz/portfolio-cap.png",
@@ -39,6 +38,20 @@ export const projectData = [
             }
         ],
         tools:["Javascript", "React.js", "JSX", "React Router", "CSS3", "Framer motion", "NoSQL"]
+
+    },
+    {
+        title: "Skate!",
+        img:"https://i.ibb.co/L8r6rsz/portfolio-cap.png",
+        links:[
+            {
+                code:"repo link"
+            },
+            {
+                readme:"readme-link"
+            }
+        ],
+        tools:["Javascript", "React.js", "JSX", "React Router", "CSS3", "Ruby", "ActiveRecord", "Sinatra"]
 
     }
 ]
