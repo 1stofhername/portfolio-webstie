@@ -14,24 +14,33 @@ export default function ProjectCard ({ project }) {
             document.getElementById(id).removeAttribute('expanded');
         };
     };
-
+    
+    
     const { title, links, img, tools } = project;
 
     return (
         
         <div onClick={(e)=>handleProjectClick(e)} name={title} id={title} expanded={undefined} className='project-card'>
 
+            {/* project title */}
+
             <span name={title} className="card-title">
             <h2 onClick={(e)=>{handleProjectClick(e)}} id={title} name={title} className='sub-title-black'>{title}</h2>
             </span>
+
+            {/* project image */}
 
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="image-container">
             <img onClick={(e)=>{handleProjectClick(e)}} name={title} className="project-image" src={img} height="183px" alt="" />
             </span>
 
+            {/* expand button */}
+
             <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="arrow-container">
                 <span onClick={(e)=>{handleProjectClick(e)}} name={title} className="expand-arrow"></span>
             </span>
+
+            {/* project details */}
 
             <div name={title} className ="button-container">
                 {links.map(link=>{
