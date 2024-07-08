@@ -395,7 +395,6 @@ li.skill-item {
   color:black;
   letter-spacing: 0.615em;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  padding-top:1.25rem;
   width:fit-content;
 }
 
@@ -414,6 +413,7 @@ li.skill-item {
 
 .projects-container {
   height:100vh;
+  overflow: scroll;
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -441,8 +441,8 @@ li.skill-item {
 .project-card {
   background-color: rgba(255,255,255, .8);
   height:19rem;
-  width:26rem;
-  margin-top:1rem;
+  width:28rem;
+  margin:2rem auto 2rem auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow-y: clip;
@@ -476,13 +476,14 @@ height:3.5rem;
 
 .project-image {
   width:70%;
+  height:auto;
   margin:1rem;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .arrow-container {
-  height: 1rem;
+  height: 2rem;
   display: flex;
   justify-content: center;  
   transition-duration: .5s;

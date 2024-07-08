@@ -1509,8 +1509,7 @@ transform: translate(1.0rem, 4.5rem);
  }
 
  .project-card {
-  height:18rem;
-  min-height:18rem;
+  height:15rem;
   width:20rem;
   margin-top:2rem;
   margin-bottom:2rem;

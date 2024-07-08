@@ -10,7 +10,7 @@ export default function Projects () {
         
             <motion.div id="projects-page"
             initial={{ height:0 }}
-            animate={{ height:"100vh" }}
+            animate={{ height:"fit-content" }}
             exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
             >
                 <div className="page-title">
@@ -23,7 +23,7 @@ export default function Projects () {
                 id="projects-child"
                 className="projects-container"
                 initial={{ height:0 }}
-                animate={{ height:"100vh" }}
+                animate={{ height:"fit-content" }}
                 exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
                 >
                     
