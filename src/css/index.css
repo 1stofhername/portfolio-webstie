@@ -115,6 +115,13 @@ p.connect {
   flex-direction: column;
 }
 
+.main-section {
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  padding:1.0rem;
+}
+
 .title {
   display:inline-flex;
   flex-direction: column;

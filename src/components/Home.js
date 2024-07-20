@@ -12,21 +12,29 @@ export default function Home () {
         exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
             <div id="home">
+                <div className="main-section" id="intro">
+                    <div className="title">
+                        <h2 id="greeting" className="sub-title">
+                            Hello, my name is
+                        </h2>
+                        
+                        <h1 className="name">
+                            Alicia Parris
+                        </h1>
+                        <h2 id="fullstack-dev" className="sub-title">
+                            fullstack developer
+                        </h2>
+                        <ContactMenu />
+                    </div>
+                    </div>
 
-                <div className="title">
-                    <h2 id="greeting" className="sub-title">
-                        Hello, my name is
-                    </h2>
-                    
-                    <h1 className="name">
-                        Alicia Parris
-                    </h1>
-                    <h2 id="fullstack-dev" className="sub-title">
-                        fullstack developer
-                    </h2>
-                </div>
+                    <div className="main-section" id="about-me">
+                        
+                    </div>
 
-                <ContactMenu />
+                    <div className="main-section" id="activity">
+
+                    </div>
 
             </div>
         </motion.div>
