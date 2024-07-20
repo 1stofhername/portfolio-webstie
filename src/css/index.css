@@ -112,7 +112,7 @@ p.connect {
   height:100vh;
   width:fit-content;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .main-section {
@@ -120,6 +120,12 @@ p.connect {
   border-style: none;
   border-radius: 10px;
   padding:1.0rem;
+  margin:1em;
+}
+
+.main-section[layout="row"] {
+  display: flex;
+  flex-direction: column;
 }
 
 .title {

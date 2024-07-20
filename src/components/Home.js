@@ -12,6 +12,9 @@ export default function Home () {
         exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
             <div id="home">
+
+                {/* intro section */}
+
                 <div className="main-section" id="intro">
                     <div className="title">
                         <h2 id="greeting" className="sub-title">
@@ -28,16 +31,23 @@ export default function Home () {
                     </div>
                     </div>
 
-                    <div className="main-section" id="about-me">
-                        <h2 className="sub-title">
-                            About Me
-                        </h2>
+                   
+                    <div className="main-sub-section">
+                    
+                    {/* //About me section// */}
+
+                        <div className="main-section" id="about-me">
+                            <h2 className="sub-title">
+                                About Me
+                            </h2>
+                        </div>
+
+                        {/* //Activity section // */}
+                        
+                        <div className="main-section" id="activity">
+
+                        </div>
                     </div>
-
-                    <div className="main-section" id="activity">
-
-                    </div>
-
             </div>
         </motion.div>
         </div>
