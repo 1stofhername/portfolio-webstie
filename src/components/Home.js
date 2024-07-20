@@ -29,7 +29,9 @@ export default function Home () {
                     </div>
 
                     <div className="main-section" id="about-me">
-                        
+                        <h2 className="sub-title">
+                            About Me
+                        </h2>
                     </div>
 
                     <div className="main-section" id="activity">
