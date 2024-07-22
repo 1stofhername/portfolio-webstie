@@ -20,9 +20,6 @@ export default function Home () {
                         <img src={null} />
                     </div>
                     <div className="title">
-                        <h2 id="greeting" className="sub-title">
-                            Hello, my name is
-                        </h2>
                         
                         <h1 className="name">
                             Alicia Parris
@@ -47,7 +44,7 @@ export default function Home () {
 
                         {/* //Activity section // */}
                         
-                        <div className="main-sub-section" id="activity">
+                        <div className="main-sub-section" id="activity" grey="true">
                         <h2 className="sub-title">
                                 What I'm Doing
                             </h2>

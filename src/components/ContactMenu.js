@@ -6,9 +6,9 @@ import notepad from '../assets/icons/notepad.svg';
 export default function ContactMenu () {
     return (
         <div className="contact-menu">
-            <span className="connect-text">
+            {/* <span className="connect-text">
                 <p className="connect">Connect</p>
-            </span>
+            </span> */}
             <span className='contact-icons'>
             <a href="mailto:aliciaparris@zoho.com?subject=Hi Alicia, let's talk!" className="contact-link"><img id="email" className="contact-icon" src={compose} alt="email" /></a>
             <a href="https://linkedin.com/in/idealcandidate" target="_blank" rel="noreferrer" className="contact-link"><img id="linkedin-icon" className="contact-icon" src={linkedin} alt="Linkedin logo" /></a>

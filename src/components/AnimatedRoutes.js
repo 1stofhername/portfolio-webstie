@@ -14,7 +14,7 @@ export default function AnimatedRoutes () {
     return (
     
       <>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
           <Route path="/blogs" element={<Blogs />} />

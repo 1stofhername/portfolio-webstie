@@ -34,7 +34,8 @@ p.connect {
 
 .App {
   background: rgb(245,202,195);
-  background: linear-gradient(162deg, rgba(245,202,195,1) 0%, rgba(247,237,226,1) 100%);
+  /* background: linear-gradient(162deg, rgba(245,202,195,1) 0%, rgba(247,237,226,1) 100%); */
+  background: linear-gradient(162deg, rgba(242, 206, 206, 1) 0%, rgba(247,237,226,1) 100%);
   display: flex;
   flex-direction:column;
 }
@@ -119,14 +120,17 @@ p.connect {
   background-color: white;
   border-style: none;
   border-radius: 10px;
-  padding:1.0rem;
   margin:1em;
   min-width:25%;
   width:25%;
 }
 
 .main-sub-section {
-  height: 50%;
+  height: fit-content;
+}
+
+.main-sub-section[grey="true"] {
+  background-color: rgba(251, 250, 249, 1);
 }
 
 .main-section[layout="row"] {
@@ -145,10 +149,11 @@ p.connect {
 
 .name {
   font-family: 'Bebas Neue';
-  font-size: 6.2rem;
-  letter-spacing: 0.01em;
+  font-size: 4rem;
   color:black;
-  text-shadow: 0 1px 0 rgba(242,132,130, 0.4);
+  letter-spacing: 0.25em;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5));
+  margin:0.5rem 0rem 0.5rem 0rem;
   margin-left:0.1rem;
 }
 
@@ -156,7 +161,7 @@ p.connect {
   font-family: 'Bebas Neue', cursive;
   color:black;
   letter-spacing: 0.615em;
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5));
   margin:0.5rem 0rem 0.5rem 0rem;
 }
 
@@ -521,7 +526,7 @@ height:3.5rem;
 
 .button-container {
   display: flex;
-  width:85%;
+  width:70%;
   justify-content: space-between;
   padding:2rem 1rem 1.25rem 1rem;
   margin-left:auto;
