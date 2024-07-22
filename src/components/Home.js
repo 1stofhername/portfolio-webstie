@@ -16,6 +16,9 @@ export default function Home () {
                 {/* intro section */}
 
                 <div className="main-section" id="intro">
+                    <div id="home-image-container">
+                        <img src={null} />
+                    </div>
                     <div className="title">
                         <h2 id="greeting" className="sub-title">
                             Hello, my name is
@@ -32,11 +35,11 @@ export default function Home () {
                     </div>
 
                    
-                    <div className="main-sub-section">
+                    <div className="main-section" layout="row">
                     
                     {/* //About me section// */}
 
-                        <div className="main-section" id="about-me">
+                        <div className="main-sub-section" id="about-me">
                             <h2 className="sub-title">
                                 About Me
                             </h2>
@@ -44,8 +47,10 @@ export default function Home () {
 
                         {/* //Activity section // */}
                         
-                        <div className="main-section" id="activity">
-
+                        <div className="main-sub-section" id="activity">
+                        <h2 className="sub-title">
+                                What I'm Doing
+                            </h2>
                         </div>
                     </div>
             </div>

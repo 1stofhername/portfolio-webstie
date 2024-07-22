@@ -110,7 +110,7 @@ p.connect {
 
 #home {
   height:100vh;
-  width:fit-content;
+  width:100vw;
   display:flex;
   flex-direction: row;
 }
@@ -121,11 +121,18 @@ p.connect {
   border-radius: 10px;
   padding:1.0rem;
   margin:1em;
+  min-width:25%;
+  width:25%;
+}
+
+.main-sub-section {
+  height: 50%;
 }
 
 .main-section[layout="row"] {
   display: flex;
   flex-direction: column;
+  width:70%;
 }
 
 .title {
