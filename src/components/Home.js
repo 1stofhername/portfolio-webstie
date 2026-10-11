@@ -1,3 +1,4 @@
+import TechSection from "./TechSection";
 import ContactMenu from "./ContactMenu";
 import { motion } from "framer-motion";
 import image from "../assets/me.png";
