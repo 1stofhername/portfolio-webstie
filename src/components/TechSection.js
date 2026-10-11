@@ -3,7 +3,7 @@ export default function TechSection () {
 <div className="main-section" id="intro">
 
                 <div id="home-image-container">
-                        <img className="profile-image" src={image} />
+                        {/* <img className="profile-image" src={image} /> */}
                     </div>
                     
                     <div className="title">
@@ -14,7 +14,7 @@ export default function TechSection () {
                         <h2 id="fullstack-dev" className="sub-title">
                             fullstack developer
                         </h2>
-                        <ContactMenu />
+                        {/* <ContactMenu /> */}
                     </div>
                     </div>
 }
