@@ -1,20 +1,17 @@
+import ContactMenu from "./ContactMenu"
 export default function TechSection () {
-
-<div className="main-section" id="intro">
-
-                <div id="home-image-container">
-                        {/* <img className="profile-image" src={image} /> */}
-                    </div>
+return (
+    <div className="main-section" id="intro">
                     
                     <div className="title">
                         
-                        <h1 className="name">
-                            Alicia Parris
+                        <h1 className="section-header">
                         </h1>
                         <h2 id="fullstack-dev" className="sub-title">
                             fullstack developer
                         </h2>
-                        {/* <ContactMenu /> */}
+                        <ContactMenu />
                     </div>
                     </div>
+    )
 }
