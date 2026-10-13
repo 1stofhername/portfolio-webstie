@@ -13,7 +13,7 @@ export default function Home () {
         animate={{ height:"100vh" }}
         exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
-            <div id="home">
+            <div id="landing">
 
                 {/* intro section */}
 
@@ -44,14 +44,7 @@ export default function Home () {
                     </div>
 
                     <div className="main-section" layout="row">
-                    
-                    {/* //About me section// */}
-
-                        <div className="main-sub-section" id="about-me">
-                            <h2 className="sub-title">
-                                About Me
-                            </h2>
-                        </div>
+        
 
                         {/* //Activity section // */}
                         
