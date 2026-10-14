@@ -14,3 +14,6 @@
   min-height: 100vh;
 }
 
+.page-section {
+  height: fit-content;
+}
