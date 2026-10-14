@@ -34,5 +34,10 @@
 .contact-icons {
   display:flex;
   justify-content: space-evenly;
-  height: 9vh;
+  height: 5vh;
+}
+
+.contact-icon {
+  height: 75%;
+  margin-top: 25%;
 }
