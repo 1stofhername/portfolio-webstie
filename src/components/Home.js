@@ -1,21 +1,20 @@
 import TechSection from "./TechSection";
 import ContactMenu from "./ContactMenu";
 import image from "../assets/me.png";
+import LinkBar from "./LinkBar";
 
 export default function Home () {
 
     return (
-        <div className="page-section">
-        
-            <div id="landing">
-
-                {/* intro section */}
-
-                <div className="main-section" id="intro">
+        <div className="landing">
+            <div className="main-section" id="intro">
                     <TechSection />
 
     
                     </div>
+            <div id="page-section">
+
+                {/* intro section */}
 
                    
                     <div className="main-section" layout="row">
