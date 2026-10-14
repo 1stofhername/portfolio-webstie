@@ -30,3 +30,8 @@
 .linkbar {
   background-color: rgba(242, 206, 206, 1);
 }
+
+.contact-icons {
+  display:flex;
+  justify-content: space-evenly;
+}
