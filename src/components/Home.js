@@ -1,18 +1,12 @@
 import TechSection from "./TechSection";
 import ContactMenu from "./ContactMenu";
-import { motion } from "framer-motion";
 import image from "../assets/me.png";
 
 export default function Home () {
 
     return (
         <div className="page-section">
-        <motion.div 
-        id="home-page"
-        initial={{ height:0 }}
-        animate={{ height:"100vh" }}
-        exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
-        >
+        
             <div id="landing">
 
                 {/* intro section */}
@@ -55,7 +49,6 @@ export default function Home () {
                         </div>
                     </div>
             </div>
-        </motion.div>
         </div>
     )
 }
