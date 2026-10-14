@@ -17,4 +17,6 @@
 .page-section {
   height: fit-content;
   margin: auto;
+  padding: 10%;
+  background-color:lightgrey;
 }
