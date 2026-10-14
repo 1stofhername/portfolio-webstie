@@ -4,7 +4,6 @@ import Home from './Home';
 import ExperienceContainer from './ExperienceContainer';
 import ProjectsContainer from './ProjectsContainer';
 import ExperienceDetails from './ExperienceDetails';
-import Sidebar from './Sidebar';
 import Blogs from './Blogs';
 
 export default function AnimatedRoutes () {
