@@ -34,4 +34,5 @@
 .contact-icons {
   display:flex;
   justify-content: space-evenly;
+  height: 9vh;
 }
