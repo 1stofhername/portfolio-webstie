@@ -6,18 +6,16 @@ import LinkBar from "./LinkBar";
 export default function Home () {
 
     return (
-        <div className="landing">
-            <div className="main-section" id="intro">
-                    <TechSection />
-
-    
-                    </div>
-            <div id="page-section">
+        <div className="homepage">
+            <div className="linkbar" id="intro">
+                    <LinkBar />
+                 </div>
+            <div id="main-section">
 
                 {/* intro section */}
 
                    
-                    <div className="main-section" layout="row">
+                    <div className="page-section" layout="row">
                     
                     {/* //About me section// */}
 
@@ -36,7 +34,7 @@ export default function Home () {
                         </div>
                     </div>
 
-                    <div className="main-section" layout="row">
+                    <div className="page-section" layout="row">
         
 
                         {/* //Activity section // */}
