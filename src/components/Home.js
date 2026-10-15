@@ -47,13 +47,22 @@ export default function Home () {
                             </h2>
                         </div>
 
-                        {/* //page section 3 // */}
+                    </div>
 
+                    {/* //page section 3 // */}
+
+                     <div className="page-section" layout="row">
+        
+
+                        {/* //Activity section // */}
+                        
                         <div className="main-sub-section" id="activity" grey="true">
                         <h2 className="sub-title">
                                 Page section 3
                             </h2>
                         </div>
+
+                        {/* //page section 3 // */}
 
                     </div>
             </div>

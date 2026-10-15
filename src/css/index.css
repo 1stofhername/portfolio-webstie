@@ -39,12 +39,12 @@
   display:flex;
   flex-direction: row;
   height:fit-content;
+  width:85%;
   background-color:lightgrey;
 }
 
 .page-section {
   height: fit-content;
-  width: 40%;
   margin: auto;
   /* padding: 10%; */
 }
