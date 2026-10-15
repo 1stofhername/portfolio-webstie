@@ -29,15 +29,20 @@
 
 .linkbar {
   background-color: rgba(242, 206, 206, 1);
+  height: 9%;
 }
 
 .contact-icons {
   display:flex;
   justify-content: space-evenly;
-  height: 5vh;
+  height:100%;
+  align-items: center;
 }
 
 .contact-icon {
-  height: 75%;
-  margin-top: 25%;
+  
+}
+
+.main-section {
+  height:fit-content;
 }
