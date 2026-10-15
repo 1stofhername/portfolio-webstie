@@ -12,7 +12,7 @@ export default function Home () {
                  </div>
             <div id="main-section">
 
-                {/* intro section */}
+                {/* page section 1 */}
 
                    
                     <div className="page-section" layout="row">
@@ -34,6 +34,8 @@ export default function Home () {
                         </div>
                     </div>
 
+                    {/* //page section 2 // */}
+
                     <div className="page-section" layout="row">
         
 
@@ -41,9 +43,18 @@ export default function Home () {
                         
                         <div className="main-sub-section" id="activity" grey="true">
                         <h2 className="sub-title">
-                                What I'm Doing
+                                Page section 2
                             </h2>
                         </div>
+
+                        {/* //page section 3 // */}
+
+                        <div className="main-sub-section" id="activity" grey="true">
+                        <h2 className="sub-title">
+                                Page section 3
+                            </h2>
+                        </div>
+
                     </div>
             </div>
         </div>
