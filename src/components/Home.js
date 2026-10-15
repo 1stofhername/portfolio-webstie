@@ -21,7 +21,7 @@ export default function Home () {
 
                         <div className="main-sub-section" id="about-me">
                             <h2 className="sub-title">
-                                About Me
+                                Page Sec1
                             </h2>
                         </div>
 

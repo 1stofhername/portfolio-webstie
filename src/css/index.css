@@ -14,14 +14,6 @@
   min-height: 100vh;
 }
 
-.page-section {
-  height: fit-content;
-  width: 40%;
-  margin: auto;
-  /* padding: 10%; */
-  background-color:lightgrey;
-}
-
 .homepage {
   width:100%;
   background-color: transparent;
@@ -47,4 +39,12 @@
   display:flex;
   flex-direction: row;
   height:fit-content;
+  background-color:lightgrey;
+}
+
+.page-section {
+  height: fit-content;
+  width: 40%;
+  margin: auto;
+  /* padding: 10%; */
 }
