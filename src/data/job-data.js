@@ -8,6 +8,16 @@ export const roles=[
         summary:"Joined a 60 week long full stack software engineering bootcamp. Program is independent and self-paced which requires personal drive, accountability, and learning how to leverage online resources and when to seek support from colleagues. Recognized as a community champion for community building efforts.",
         ed:true,
         id:1
+    },
+    {
+        date:"2025-2026", 
+        org:"Valley Medical Center", 
+        title:"Human Resources Information Systems Analyst", 
+        qualities:["Ensured the highest level of accuracy for data entered into HR data systems to ensure accurate records and union contract compliance.", "Prepared HR metrics to be presented at monthly, quarterly, and annual senior leadership meetings.", "Communicated with employees and managers regarding HR requests to resolve tickets in a satisfactory and compliant manner."],
+        skills:["UKG", "Infor",  "JIRA Services", "Google Suite", "SQL", "Active Record"],
+        summary:"Supported all human resources actions as it related to data requests and updates including pay increases, position changes, terminations, performance reviews and new hire onboarding and credentialing.",
+        ed:false,
+        id:1
     }, 
     {
         date:"2019-2022", 
