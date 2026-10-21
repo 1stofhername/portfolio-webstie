@@ -46,7 +46,7 @@ export const projectData = [
         img:require("../assets/img/img4.png"),
         links: [
             {
-                demo:"https://lawtiwabarbersalon.com"
+                live:"https://lawtiwabarbersalon.com"
             }
         ],
         tools:["Javascript", "React.js", "JSX", "CSS"]
