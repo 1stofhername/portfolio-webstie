@@ -5,10 +5,12 @@ import { v4 as uuid } from 'uuid';
 
 
 export default function Projects () {
-    return (
     
+    return (
         
-            <motion.div id="projects-page"
+            <motion.div 
+            className="page-section"
+            id="projects-page"
             initial={{ height:0 }}
             animate={{ height:"100vh" }}
             exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
@@ -20,11 +22,11 @@ export default function Projects () {
                 <div className="projects-container" id="projects-parent">
 
                 <motion.div 
-                id="projects-child"
+                id="child-section"
                 className="projects-container"
                 initial={{ height:0 }}
                 animate={{ height:"100vh" }}
-                exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
+                exit={{ y: window.innerHeight, transition: { duration: 1.5 } }}
                 >
                     
                     {projectData.map((project)=>{
