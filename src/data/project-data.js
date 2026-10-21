@@ -40,6 +40,16 @@ export const projectData = [
         ],
         tools:["Javascript", "React.js", "JSX", "React Router", "CSS3", "Framer motion", "NoSQL"]
 
+    },
+      {
+        title: "Lawtiwa Website",
+        img:require("../assets/img/img4.png"),
+        links: [
+            {
+                demo:"https://lawtiwabarbersalon.com"
+            }
+        ],
+        tools:["Javascript", "React.js", "JSX", "CSS"]
     }
 ]
 
