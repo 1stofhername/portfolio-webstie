@@ -59,7 +59,7 @@ export default function ExperienceDetails () {
 
                 <div className='job-detail' id="skills-container">
                     <h3 className='sub-title-job'>
-                        Superpowers
+                        Tools
                     </h3>
                     <span className='skill-set'>
                         {skillsList}
@@ -68,7 +68,7 @@ export default function ExperienceDetails () {
 
                 <div className='job-detail' id="skills-demonstrated-div">
                     <h3 className='sub-title-job'>
-                        Skills demonstrated
+                        Responsibilities
                     </h3>
                         {qualitiesList}
                 </div>
