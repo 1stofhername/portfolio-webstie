@@ -1,7 +1,7 @@
 export const projectData = [
     {
         title: "Cul-de-sac",
-        img:"https://i.ibb.co/RTPr0xq/Screen-Shot-2022-05-20-at-5-34-31-PM.png",
+        img:require("../assets/img/img1.png"),
         links:[
              {
                 video:"https://www.youtube.com/embed/ov1KhpbQLGc"
@@ -14,7 +14,7 @@ export const projectData = [
     },
     {
         title: "Idealist",
-        img:"https://i.ibb.co/wBHJVmc/Screen-Shot-2022-05-20-at-4-53-18-PM.png",
+        img:require("../assets/img/img2.png"),
         links:[
             // {
             //     demo:"https://idealist-app.netlify.app/"
@@ -32,7 +32,7 @@ export const projectData = [
 
     {
         title: "Portfolio",
-        img:"https://i.ibb.co/L8r6rsz/portfolio-cap.png",
+        img:require("../assets/img/img3.png"),
         links:[
             {
                 code:"https://github.com/1stofhername/portfolio-webstie"

@@ -12,7 +12,7 @@ export default function Projects () {
             className="page-section"
             id="projects-page"
             initial={{ height:0 }}
-            animate={{ height:"100vh" }}
+            animate={{ height:"fit-content" }}
             exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
             >
                 <div className="page-title">
