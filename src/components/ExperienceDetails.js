@@ -68,7 +68,7 @@ export default function ExperienceDetails () {
 
                 <div className='job-detail' id="skills-demonstrated-div">
                     <h3 className='sub-title-job'>
-                        Responsibilities
+                        Duties
                     </h3>
                         {qualitiesList}
                 </div>

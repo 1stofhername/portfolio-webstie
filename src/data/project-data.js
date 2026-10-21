@@ -16,8 +16,11 @@ export const projectData = [
         title: "Idealist",
         img:"https://i.ibb.co/wBHJVmc/Screen-Shot-2022-05-20-at-4-53-18-PM.png",
         links:[
+            // {
+            //     demo:"https://idealist-app.netlify.app/"
+            // },
             {
-                demo:"https://idealist-app.netlify.app/"
+                code:"https://github.com/1stofhername/deployed-idea-list/tree/main"
             },
             {
                 readme:"https://github.com/1stofhername/deployed-idea-list/blob/main/README.md"
