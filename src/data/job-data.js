@@ -11,6 +11,16 @@ export const roles=[
         id:1
     }, 
     {
+        date:"2023-2025", 
+        org:"Gopuff Inc.", 
+        title:"Operations Associate", 
+        qualities:["Prioritized inventory receiving, customer orders, and driver management with little oversight to maximize product quality and customer satisfaction.", "Audited and corrected inventory discrepancies, preventing thousands of dollars in food waste.", "Maintained a safe and healthy work environment that adhered to local and federal safety regulations.", "Providing first tier support to customers with order concerns and drivers with app issues."],
+        skills:["Workday", "Google Suite",  "Proprietary Inventory Management Software", "RF Scanner", "QR Code management",],
+        summary:"Blended operational excellence with food & beverage management in accord with state and federal health regulations to ensure a clean and safe warehouse environment balancing inventory management and providing customers with high-quality orders and experience.",
+        ed:false,
+        id:1
+    },
+    {
         date:"2019-2022", 
         org:"Tiny Home Build", 
         title:"Product Owner",
