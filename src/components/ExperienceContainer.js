@@ -18,11 +18,11 @@ export default function Resume () {
             exit={{ y: window.innerHeight, transition: { duration: 1.0 } }}
         >
             <div className="page-title">
-                <a  className="pdf-link" href="https://docs.google.com/document/d/e/2PACX-1vSTTzXoXU8aBTKpSIvw5uPL0UpjrsdWDsljymNaHzrhgRcdkQX_p8_Wn4ylZR0_qMEJmEiAz4GJ5M5f/pub">
+                <a  className="pdf-link" href="https://docs.google.com/document/d/e/2PACX-1vTy4DdX0vp1RIO7nXn3fk0hxbmAJ8EgzNGHjAUvBfGGIw2Cl0DgbwAC7Fta0E1W5g/pub">
                     <img className="pdf-icon" src={pdf} alt="resume pdf" />
                 </a>
                 <h1 className="sub-title-black">
-                    Resume
+                    Recent Experience
                 </h1>
             </div>
 

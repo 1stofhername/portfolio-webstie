@@ -21,8 +21,8 @@ export default function Home () {
                     <h1 className="name">
                         Alicia Parris
                     </h1>
-                    <h2 id="fullstack-dev" className="sub-title">
-                        fullstack developer
+                    <h2 id="job-title" className="sub-title">
+                        technical native
                     </h2>
                 </div>
 

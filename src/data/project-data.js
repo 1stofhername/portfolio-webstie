@@ -16,8 +16,11 @@ export const projectData = [
         title: "Idealist",
         img:require("../assets/img/img2.png"),
         links:[
+            // {
+            //     demo:"https://idealist-app.netlify.app/"
+            // },
             {
-                demo:"https://idealist-app.netlify.app/"
+                code:"https://github.com/1stofhername/deployed-idea-list/tree/main"
             },
             {
                 readme:"https://github.com/1stofhername/deployed-idea-list/blob/main/README.md"
@@ -41,13 +44,12 @@ export const projectData = [
         tools:["Javascript", "React.js", "JSX", "React Router", "CSS3", "Framer motion", "NoSQL"]
 
     },
-
-    {
+      {
         title: "Lawtiwa Website",
         img:require("../assets/img/img4.png"),
         links: [
             {
-                code:"https://github/com/1stofhername/lawtiwa_barbersalon"
+                live:"https://lawtiwabarbersalon.com"
             }
         ],
         tools:["Javascript", "React.js", "JSX", "CSS"]

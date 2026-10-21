@@ -59,6 +59,10 @@ export default function ProjectCard ({ project }) {
                         url=link.code;
                         linkType="Source code"
                     }
+                    else if (link.live) {
+                        url=link.live;
+                        linkType="Live site"
+                    }
                     return (
                         <button key={uuid()} name={title} className="project-button" onClick={()=> window.open(url, "_blank")}>
                             {linkType==="Walkthrough"?

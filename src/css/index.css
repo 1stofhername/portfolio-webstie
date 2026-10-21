@@ -121,6 +121,7 @@ p.connect {
   text-align: left;
   width:fit-content;
   margin-top:10%;
+  margin-left: 0.5rem;
 }
 
 .name {
@@ -137,10 +138,10 @@ p.connect {
   color:white;
   letter-spacing: 0.615em;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  margin:0.5rem 0rem 0.5rem 0rem;
+  margin:0.5rem 0rem 0.5rem 1.0rem;
 }
 
-#fullstack-dev {
+#job-title {
   margin-top: 0rem;
   margin-bottom: 1rem;
 }
@@ -245,7 +246,7 @@ code {
   justify-content: center;
   align-items: center;
   width: 39rem;
-  height:10rem;
+  height:7rem;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
@@ -306,7 +307,7 @@ code {
   align-self:flex-start;
   margin-right:1rem;
   position: absolute;
-  transform: translate(1rem, -3.5rem) rotate(180deg);
+  transform: translate(2rem, -1.5rem) rotate(180deg);
 }
 
 #bottom-corner {
@@ -319,7 +320,7 @@ code {
   align-self:flex-end;
   margin-right:1rem;
   position: absolute;
-  transform: translate(0rem, 3.5rem);
+  transform: translate(-1rem, 1.5rem);
 }
 
 .resume-details-header {
@@ -328,6 +329,7 @@ code {
   text-align: center;
   margin-left:auto;
   margin-right:auto;
+  margin-block-start: 1em;
 }
 
 .back-icon-container {

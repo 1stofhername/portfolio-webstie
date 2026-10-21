@@ -1,14 +1,25 @@
 export const roles=[
+  
     {
-        date:"2021-Present", 
-        org:"Flatiron School", 
-        title:"60-week Fullstack Software Engineering Program", 
-        qualities:["Interest and ability to learn new languages and frameworks as needed.", "Acquiring a strong development ability in JavaScript, SQL, and other programming tools.", "Gaining a conceptual understanding of data structures and databases.", "Learning and working both independently and collaboratively.", "Communicating learned concepts and project goals via blog posts.", "Engaging in and completing technical challenges"],
-        skills:["AJAX", "CSS",  "HTML", "HTML5", "Javascript", "JSON", "Node.js", "Object-Oriented-Programming", "PostgreSQL", "Active Record", "React.js", "Ruby", "SQLite", "TypeScript"],
-        summary:"Joined a 60 week long full stack software engineering bootcamp. Program is independent and self-paced which requires personal drive, accountability, and learning how to leverage online resources and when to seek support from colleagues. Recognized as a community champion for community building efforts.",
-        ed:true,
+        date:"2025-2026", 
+        org:"Valley Medical Center", 
+        title:"Human Resources Information Systems Analyst", 
+        qualities:["Ensured the highest level of accuracy for data entered into HR data systems to ensure accurate records and union contract compliance.", "Prepared HR metrics to be presented at monthly, quarterly, and annual senior leadership meetings.", "Communicated with employees and managers regarding HR requests to resolve tickets in a satisfactory and compliant manner."],
+        skills:["UKG", "Infor",  "JIRA Services", "Google Suite", "SQL", "Active Record"],
+        summary:"Supported all human resources actions as it related to data requests and updates including pay increases, position changes, terminations, performance reviews and new hire onboarding and credentialing.",
+        ed:false,
         id:1
     }, 
+    {
+        date:"2023-2025", 
+        org:"Gopuff Inc.", 
+        title:"Operations Associate", 
+        qualities:["Prioritized inventory receiving, customer orders, and driver management with little oversight to maximize product quality and customer satisfaction.", "Audited and corrected inventory discrepancies, preventing thousands of dollars in food waste.", "Maintained a safe and healthy work environment that adhered to local and federal safety regulations.", "Providing first tier support to customers with order concerns and drivers with app issues."],
+        skills:["Workday", "Google Suite",  "Proprietary Inventory Management Software", "RF Scanner", "QR Code management",],
+        summary:"Blended operational excellence with food & beverage management in accord with state and federal health regulations to ensure a clean and safe warehouse environment balancing inventory management and providing customers with high-quality orders and experience.",
+        ed:false,
+        id:1
+    },
     {
         date:"2019-2022", 
         org:"Tiny Home Build", 
@@ -39,6 +50,16 @@ export const roles=[
         ed:false,
         id:4
     },
+      {
+        date:"2021-2022", 
+        org:"Flatiron School", 
+        title:"60-week Fullstack Software Engineering Program", 
+        qualities:["Interest and ability to learn new languages and frameworks as needed.", "Acquiring a strong development ability in JavaScript, SQL, and other programming tools.", "Gaining a conceptual understanding of data structures and databases.", "Learning and working both independently and collaboratively.", "Communicating learned concepts and project goals via blog posts.", "Engaging in and completing technical challenges"],
+        skills:["AJAX", "CSS",  "HTML", "HTML5", "Javascript", "JSON", "Node.js", "Object-Oriented-Programming", "PostgreSQL", "Active Record", "React.js", "Ruby", "SQLite", "TypeScript"],
+        summary:"Joined a 60 week long full stack software engineering bootcamp. Program is independent and self-paced which requires personal drive, accountability, and learning how to leverage online resources and when to seek support from colleagues. Recognized as a community champion for community building efforts.",
+        ed:true,
+        id:5
+    },
     {
         date:"2016-2018", 
         org:"Seattle Central College", 
@@ -57,6 +78,6 @@ export const roles=[
         skills:["Problem identification", "Communication", "Reporting","Skill acquisition","Sharepoint", "Jira", "Wordpress"],
         summary:"Bridging communication gaps between customers, customer service teams, marking teams, and development team through creating tickets or direct communication. Identifying problems and determining the correct team to escalate to and ensuring all steps taken to resolve issues were well documented.",
         ed:false,
-        id:5
+        id:7
     }
 ];
