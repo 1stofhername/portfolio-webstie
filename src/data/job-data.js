@@ -1,6 +1,6 @@
 export const roles=[
     {
-        date:"2021-Present", 
+        date:"2021-2022", 
         org:"Flatiron School", 
         title:"60-week Fullstack Software Engineering Program", 
         qualities:["Interest and ability to learn new languages and frameworks as needed.", "Acquiring a strong development ability in JavaScript, SQL, and other programming tools.", "Gaining a conceptual understanding of data structures and databases.", "Learning and working both independently and collaboratively.", "Communicating learned concepts and project goals via blog posts.", "Engaging in and completing technical challenges"],
