@@ -32,7 +32,7 @@ export default function Resume () {
             className="resume-container" 
             id="child-section"
             initial={{ height:0 }}
-            animate={{ height:"90vh" }}
+            animate={{ height:"fit-content" }}
             exit={{ y: window.innerHeight, transition: { duration: 1.5 } }}
         >
             {roles.map(role=>{

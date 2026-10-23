@@ -26,5 +26,6 @@ export default function AnimatedRoutes () {
         </Routes>
       </AnimatePresence>
       </>
-    )
+  
+    );
 }

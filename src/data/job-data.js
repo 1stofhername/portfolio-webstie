@@ -18,7 +18,7 @@ export const roles=[
         skills:["Workday", "Google Suite",  "Proprietary Inventory Management Software", "RF Scanner", "QR Code management",],
         summary:"Blended operational excellence with food & beverage management in accord with state and federal health regulations to ensure a clean and safe warehouse environment balancing inventory management and providing customers with high-quality orders and experience.",
         ed:false,
-        id:1
+        id:8
     },
     {
         date:"2019-2022", 
