@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 export default function Navbar () {
 
     const [activeLink, setActiveLink] = useState("home-page-link");
+    
 
     useEffect(()=>{
         if(activeLink){
