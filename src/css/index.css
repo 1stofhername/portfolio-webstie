@@ -223,8 +223,12 @@ code {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height:85vh;
+  height:fit-content;
   align-content: space-around;
+}
+
+#resume-section {
+  overflow-y: scroll;
 }
 
 .pdf-link {
@@ -246,7 +250,7 @@ code {
   justify-content: center;
   align-items: center;
   width: 39rem;
-  height:7rem;
+  height:10rem;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
@@ -305,8 +309,9 @@ code {
   border-top: 1px;
   border-left:1px;
   align-self:flex-start;
-  margin-right:1rem;
-  position: absolute;
+  margin-left:-1rem;
+  margin-top:2rem;
+  position: relative;
   transform: translate(2rem, -1.5rem) rotate(180deg);
 }
 
@@ -318,8 +323,9 @@ code {
   border-top: 1px;
   border-left:1px;
   align-self:flex-end;
-  margin-right:1rem;
-  position: absolute;
+  margin-right:0rem;
+  margin-bottom:2rem;
+  position: relative;
   transform: translate(-1rem, 1.5rem);
 }
 
