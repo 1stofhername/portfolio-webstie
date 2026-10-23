@@ -469,6 +469,11 @@ li.skill-item {
   transition-duration: .5s;
 }
 
+.project-card[expanded] > .image-container > .project-image {
+  max-height: 12rem;
+  width:auto;
+}
+
 .card-title {
 display:flex;
 margin-left: auto;
