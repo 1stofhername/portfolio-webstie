@@ -460,7 +460,7 @@ li.skill-item {
 }
 
 .project-card[expanded] {
-  height:38rem;
+  height:fit-content;
   transition-duration: 1s;
 }
 
