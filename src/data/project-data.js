@@ -4,7 +4,7 @@ export const projectData = [
         img:require("../assets/img/img1.png"),
         links:[
              {
-                video:"https://www.youtube.com/embed/ov1KhpbQLGc"
+                video:"https://www.youtube.com/embed/CtupWAHhh8c?si=RDBNjSqv4OPFwkqz"
             },
             {
                 readme:"https://github.com/1stofhername/Phase1-Project/blob/main/README.md"

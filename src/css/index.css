@@ -515,7 +515,7 @@ height:3.5rem;
 .button-container {
   display: flex;
   width:85%;
-  justify-content: space-between;
+  justify-content: space-around;
   padding:2rem 1rem 1.25rem 1rem;
   margin-left:auto;
   margin-right:auto;
