@@ -474,6 +474,10 @@ li.skill-item {
   width:auto;
 }
 
+.project-button {
+  margin-top:.5em;
+}
+
 .card-title {
 display:flex;
 margin-left: auto;
