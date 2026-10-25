@@ -67,6 +67,7 @@ p.connect {
 .nav-link{
   width:fit-content;
   text-decoration: none;
+  overflow: visible;
 }
 
 .nav-icon[selected] {
@@ -86,6 +87,7 @@ p.connect {
   border-color:rgba(255,255,255, 0);
   padding-bottom:3px;
   padding-top:5px;
+  overflow: visible;
 }
 
 .external-links {
