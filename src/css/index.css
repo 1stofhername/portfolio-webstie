@@ -435,10 +435,11 @@ li.skill-item {
 
 .page-title {
   display:flex;
+  flex-direction: column-reverse;
   margin-right:auto;
   margin-left:auto;
   width:fit-content;
-  align-items: flex-end;
+  align-items: center;
   margin: 2rem auto 0px auto;
   padding-bottom:.5rem;
 }
