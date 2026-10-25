@@ -26,7 +26,7 @@
 
   #internal-links {
     display:flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
   }
 
     .nav-icon {
@@ -298,7 +298,7 @@
 
   #internal-links {
     display:flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
   }
 
     .nav-icon {
