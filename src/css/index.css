@@ -460,7 +460,7 @@ li.skill-item {
 }
 
 .project-card[expanded] {
-  height:fit-content;
+  height:90vh;
   transition-duration: 1s;
 }
 
@@ -471,7 +471,6 @@ li.skill-item {
 
 .image-container {
     width: 100%;
-    height: 70%;
     display: inline-flex
 }
 
