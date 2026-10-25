@@ -231,6 +231,12 @@ code {
   overflow-y: scroll;
 }
 
+.resume-link-container {
+  display:flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
 .pdf-link {
   height: fit-content;
   width:fit-content;
