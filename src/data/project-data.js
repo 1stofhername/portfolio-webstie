@@ -53,6 +53,16 @@ export const projectData = [
             }
         ],
         tools:["Javascript", "React.js", "JSX", "CSS"]
+    },
+     {
+        title: "Bus Life PNW",
+        img:require("../assets/img/img5.png"),
+        links: [
+            {
+                live:"https://buslifepnw.com"
+            }
+        ],
+        tools:["Javascript", "React.js", "JSX", "CSS"]
     }
 ]
 

@@ -231,10 +231,23 @@ code {
   overflow-y: scroll;
 }
 
+.resume-link-container {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin:1em;
+}
+
+#resume-label {
+  margin: 0.25em;
+  filter: drop-shadow(0.35rem 0.35rem 0.5rem rgba(0, 0, 0, 0.3));
+}
+
 .pdf-link {
   height: fit-content;
   width:fit-content;
   margin-right:10px;
+  text-decoration-color: black;
 }
 
 .pdf-icon {
@@ -419,21 +432,27 @@ li.skill-item {
 
 /* PROJECTS */
 
+#projects-page {
+  height: fit-content;
+  overflow-y:scroll;
+}
+
 .projects-container {
   height:100vh;
   overflow: scroll;
   display:flex;
   justify-content: space-around;
-  flex-wrap: nowrap;    
+  flex-wrap: wrap;    
   position: relative;
 }
 
 .page-title {
   display:flex;
+  flex-direction: column-reverse;
   margin-right:auto;
   margin-left:auto;
   width:fit-content;
-  align-items: flex-end;
+  align-items: center;
   margin: 2rem auto 0px auto;
   padding-bottom:.5rem;
 }
@@ -460,13 +479,25 @@ li.skill-item {
 }
 
 .project-card[expanded] {
-  height:fit-content;
+  height:85vh;
   transition-duration: 1s;
 }
 
 .project-card[expanded] .arrow-container {
   transform:rotate(180deg);
   transition-duration: .5s;
+}
+
+.image-container {
+    width: 100%;
+    display: inline-flex
+}
+
+.project-image {
+  object-fit:cover;
+  margin:1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .project-card[expanded] > .image-container > .project-image {
@@ -489,14 +520,6 @@ height:3.5rem;
 .close-icon {
   width:2rem;
   margin:0rem;
-}
-
-.project-image {
-  width:auto;
-  height:55%;
-  margin:1rem;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .arrow-container {
