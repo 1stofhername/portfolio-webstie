@@ -419,6 +419,11 @@ li.skill-item {
 
 /* PROJECTS */
 
+#projects-page {
+  height: fit-content;
+  overflow-y:scroll;
+}
+
 .projects-container {
   height:100vh;
   overflow: scroll;
@@ -460,7 +465,7 @@ li.skill-item {
 }
 
 .project-card[expanded] {
-  height:90vh;
+  height:85vh;
   transition-duration: 1s;
 }
 
