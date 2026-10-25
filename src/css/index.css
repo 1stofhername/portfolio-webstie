@@ -234,13 +234,20 @@ code {
 .resume-link-container {
   display:flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
+  margin:1em;
+}
+
+#resume-label {
+  margin: 0.25em;
+  filter: drop-shadow(0.35rem 0.35rem 0.5rem rgba(0, 0, 0, 0.3));
 }
 
 .pdf-link {
   height: fit-content;
   width:fit-content;
   margin-right:10px;
+  text-decoration-color: black;
 }
 
 .pdf-icon {
@@ -435,7 +442,7 @@ li.skill-item {
   overflow: scroll;
   display:flex;
   justify-content: space-around;
-  flex-wrap: nowrap;    
+  flex-wrap: wrap;    
   position: relative;
 }
 
