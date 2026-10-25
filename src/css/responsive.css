@@ -124,7 +124,9 @@
 
       #bottom-corner {
         position:absolute;
-      transform: translate(1.0rem, 4.5rem);
+        transform: translate(1.0rem, 4.5rem);
+        margin-right: 1rem;
+        margin-bottom: 1rem;
       }
 
       /* JOB SUBPAGE */
@@ -244,6 +246,7 @@
         height:160px;
         width:85%;
         margin-bottom:1.25rem;
+        border-radius: 0;
       }
 
       .button-container {
@@ -397,11 +400,15 @@
     #top-corner {
         position:absolute;
         transform: translate(0rem, -4.5rem) rotate(180deg);
+        margin-left: 0rem;
+        margin-top: 1rem;
     }
 
     #bottom-corner {
       position:absolute;
-    transform: translate(1.0rem, 4.5rem);
+      transform: translate(1.0rem, 4.5rem);
+      margin-right: 1rem;
+      margin-bottom: 1rem;
     }
 
     /* JOB SUBPAGE */
@@ -507,6 +514,7 @@
       height:10.5rem;
       /* width:85%; */
       margin-bottom:1.75rem;
+      border-radius: 0;
     }
 
     .button-container {
@@ -630,7 +638,9 @@ margin-right:0.5rem;
 
   #bottom-corner {
     position:absolute;
-  transform: translate(1.0rem, 4.5rem);
+    transform: translate(1.0rem, 4.5rem);
+    margin-right: 1rem;
+    margin-bottom: 1rem;
   }
 
   /* JOB SUBPAGE */
@@ -738,6 +748,7 @@ margin-right:0.5rem;
     height:10.5rem;
     /* width:85%; */
     margin-bottom:1.75rem;
+    border-radius: 0;
   }
 
   .button-container {
@@ -859,7 +870,9 @@ margin-right:0.5rem;
   
     #bottom-corner {
       position:absolute;
-    transform: translate(1.0rem, 4.5rem);
+      transform: translate(1.0rem, 4.5rem);
+      margin-right: 1rem;
+      margin-bottom: 1rem;
     }
   
     /* JOB SUBPAGE */
@@ -967,6 +980,7 @@ margin-right:0.5rem;
       height:10.5rem;
       /* width:85%; */
       margin-bottom:1.75rem;
+      border-radius: 0;
     }
   
     .button-container {
@@ -1056,7 +1070,9 @@ h2.sub-title-black {
 
 #bottom-corner {
   position:absolute;
-transform: translate(1.0rem, 4.5rem);
+  transform: translate(1.0rem, 4.5rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
   /* JOB SUBPAGE */
@@ -1169,6 +1185,7 @@ transform: translate(1.0rem, 4.5rem);
     height:10.5rem;
     /* width:85%; */
     margin-bottom:1.75rem;
+    border-radius: 0;
   }
 
   .button-container {
