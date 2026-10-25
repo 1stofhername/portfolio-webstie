@@ -467,7 +467,7 @@ li.skill-item {
 
 .project-card {
   background-color: rgba(255,255,255, .8);
-  height:20rem;
+  height:19rem;
   width:22rem;
   margin:2rem auto 2rem auto;
   border-radius: 10px;
@@ -479,7 +479,7 @@ li.skill-item {
 }
 
 .project-card[expanded] {
-  height:85vh;
+  height:76vh;
   transition-duration: 1s;
 }
 
@@ -494,7 +494,7 @@ li.skill-item {
 }
 
 .project-image {
-  object-fit:cover;
+  /* object-fit:cover; */
   margin:1rem;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
