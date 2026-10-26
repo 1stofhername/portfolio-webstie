@@ -397,11 +397,15 @@
     #top-corner {
         position:absolute;
         transform: translate(0rem, -4.5rem) rotate(180deg);
+        margin-left: 0rem;
+        margin-top: 0rem;
     }
 
     #bottom-corner {
       position:absolute;
-    transform: translate(1.0rem, 4.5rem);
+      transform: translate(1.0rem, 4.5rem);
+      margin-right: 1rem;
+      margin-bottom: 0rem;
     }
 
     /* JOB SUBPAGE */
